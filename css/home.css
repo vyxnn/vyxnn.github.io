@@ -1,0 +1,74 @@
+@font-face{
+    font-family: 'DINRegular';
+    src: url("../fonts/DINRegular.ttf") format("truetype");
+} 
+
+.about .pfp .imgcenter{  
+    z-index: 1; 
+    align-self: center;
+    width: 100%;
+    height: 500px;   
+    object-fit: cover;   
+}
+
+.about{ 
+    display: block; 
+    padding-top: 0.1%; 
+    align-self: center;
+    position: absolute;
+    max-width: 1248px; 
+    min-width: 300px; 
+    max-height: 500px; 
+    background-color: white;
+    width: 100%; 
+    height: auto; 
+}
+
+.about .pfp{
+    position: relative; 
+    width: 20%; 
+    text-align: center;
+    max-height: 500px; 
+    float: left; 
+    display: block; 
+    overflow: hidden; 
+    object-fit: contain; 
+}
+
+.about .pfp .topbtn{
+    position: absolute; 
+    top: 10%; 
+    /*Centering absolute elements*/
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    background-color: white; 
+    font-family: 'DINRegular';
+    font-size: 30px; 
+    z-index: 2; 
+    border: 2px solid black; 
+}
+
+.about .pfp .botbtn{
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    top: 85%; 
+    background-color: white; 
+    font-family: 'DINRegular';
+    font-size: 30px; 
+    z-index: 2; 
+    border: 2px solid black; 
+}
+
+.about .blurb{ 
+    width: 14%; 
+    padding: 3%; 
+    float: left; 
+    background-color: white; 
+    font-family: 'DINRegular';
+    object-fit: contain; 
+}

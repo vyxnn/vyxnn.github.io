@@ -1,0 +1,65 @@
+@font-face{
+    font-family: 'DINRegular';
+    src: url("../fonts/DINRegular.ttf") format("truetype");
+} 
+
+head{ 
+    background-color: black;
+}
+
+body{ 
+    margin-top: 0px;
+    align-items: center;
+    max-width: 1248px; 
+    min-width: 300px; 
+    margin: 0 auto; 
+    background-color: white;
+}
+
+.topnav{
+    width: 100%;
+    background-color: black; 
+    text-align: right; 
+}
+
+.topnav .title{ 
+    font-family: 'DINRegular'; 
+    font-size: xx-large;
+    text-decoration:none; 
+    text-align: left; 
+    color: white;
+    padding-top: 1%; 
+    padding-right: 1%; 
+    padding-left: 2%; 
+    padding-bottom: 0%; 
+    max-height: 10px; 
+}
+
+.topnav .a .home, .profile, .projects, .cv, .art, .interests, .home
+{ 
+    font-family: 'DINRegular'; 
+    text-align: right;
+    font-size: small; 
+    padding-right: 1%; 
+    text-decoration:none; 
+    padding-top: -20%; 
+    color: white; 
+}
+
+/*fix this*/
+.topnav .a .home:active{
+    color: white; 
+}
+
+.topnav .a:link{
+    color: white; 
+}
+
+.topnav .a:hover{
+    color:white; 
+}
+
+.topnav a:visited{
+    color: white;
+}
+  

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!-- default theming-->
+<html>
+    <link rel="stylesheet" href={{ "/css/nav.css" | relative_url }}>
+    <head>
+        <div class="topnav">
+            <p class = "title"> VICTORIA DENG </p>
+            <a class = "home" href="/">home</a>
+            <a class = "profile" href="/about">about</a>
+            <a class = "projects" href="/projects">projects</a>
+            <a class = "cv" href="/cv">cv</a>
+            <a class = "art" href="/art">art</a>
+            <a class = "interests" href="/interests">interests</a>
+            <!--probably some better way of adding space underneath-->
+            <div>
+            </br>
+            </div>
+        </div> 
+    </head>
+    <body>
+        <!-- redirects back to whatever called it -->
+        {{content}}
+    </body>
+</html>
