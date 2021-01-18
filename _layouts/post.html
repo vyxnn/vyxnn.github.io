@@ -1,7 +1,16 @@
 ---
 layout: default
 ---
-
+<link rel="stylesheet" href={{ "/css/post.css" | relative_url }}>  
+<div>  
 <div>
+    {% capture path %}{{page.image | prepend: "/.."}}{% endcapture %}
+    <img class= "sideimage" src= "{{path}}" alt="Image">
+</div>
+<div>
+    {{page.test}}
+    </div>
+<div class="textbody">
     {{content}}
+</div>
 </div>

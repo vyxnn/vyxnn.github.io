@@ -1,0 +1,35 @@
+@font-face{
+    font-family: 'DINRegular';
+    src: url("../fonts/DINRegular.ttf") format("truetype");
+} 
+
+.projectbody{ 
+    font-family: 'DINRegular';
+}
+
+.post{
+    width: 25%; 
+    max-height: 300px;
+    text-align: center; 
+    font-size: 20px; 
+    float: left; 
+    display: block; 
+    overflow: hidden; 
+    object-fit: contain;
+}
+
+.imgpreview{
+    width: 100%; 
+    object-fit: contain;
+}
+
+a:link, 
+a:hover, 
+a:focus{ 
+    color: #72a5f2; 
+    text-decoration: none;
+}
+
+a:visited{
+    color:#656cba; 
+}

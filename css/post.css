@@ -1,0 +1,30 @@
+@font-face{
+    font-family: 'DINRegular';
+    src: url("../fonts/DINRegular.ttf") format("truetype");
+} 
+
+.sideimage{
+    width: 21%; 
+    padding: 2%; 
+    height: auto; 
+    float: left; 
+}
+
+.textbody{ 
+    font-family: 'DINRegular';
+    float: left;
+    width: 71%;  
+    padding-top: 0%; 
+    padding: 2%; 
+}
+
+a:link, 
+a:hover, 
+a:focus{ 
+    color: #72a5f2;
+    text-decoration: none;  
+}
+
+a:visited{
+    color:#656cba; 
+}

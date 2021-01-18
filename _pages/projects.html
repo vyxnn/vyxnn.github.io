@@ -4,10 +4,19 @@ title: Projects
 permalink: /projects/
 ---
 
-<div>
+<link rel="stylesheet" href={{ "/css/project.css" | relative_url }}>  
+<div class="projectbody">
     {% for post in site.tags.project %}
-    <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+    <a href="{{ post.url }}">
+    <div class="post">
+    </br>
+        {{ post.title }}
+        </br></br>
+        <div>
+            {% capture path %}{{post.image | prepend: "/.."}}{% endcapture %}
+            <img class= "imgpreview" src= "{{path}}" alt="Image">
+        </div>
+    </div>
+    </a>
     {% endfor %}
 </div>
