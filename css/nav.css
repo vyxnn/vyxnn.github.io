@@ -13,7 +13,7 @@ body{
     max-width: 1248px; 
     min-width: 300px; 
     margin: 0 auto; 
-    background-color: white;
+    height: auto; 
 }
 
 .topnav{

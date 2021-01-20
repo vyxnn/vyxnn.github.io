@@ -3,6 +3,7 @@ layout: post
 title: "PADERO Hackathon"
 tag: project
 image: "/images/pepper-demo.jpg"
+excerpt: "That time I accidentally participated in a hackathon for free food but ended up winning"
 ---
 
 # PADERO Hackathon

@@ -3,15 +3,20 @@ layout: default
 title: Projects 
 permalink: /projects/
 ---
-
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 <link rel="stylesheet" href={{ "/css/project.css" | relative_url }}>  
-<div class="projectbody">
+
+<div class="projectbody" data-masonry='{ "itemSelector": ".post", "columnWidth": 312}'>
     {% for post in site.tags.project %}
     <a href="{{ post.url }}">
     <div class="post">
     </br>
         {{ post.title }}
-        </br></br>
+        <div class = "excerpt">
+        </br>
+            {{post.excerpt}}
+        </div>
+    </br>
         <div>
             {% capture path %}{{post.image | prepend: "/.."}}{% endcapture %}
             <img class= "imgpreview" src= "{{path}}" alt="Image">
