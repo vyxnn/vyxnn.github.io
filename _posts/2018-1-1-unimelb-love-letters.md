@@ -10,12 +10,22 @@ excerpt: "A progression of how I got bored of copying and pasting posts, so I de
 
 [**Unimelb Love Letters Page**](https://www.facebook.com/UoMLoveLetters)  
   
-Idk what I'm going to write here yet    
-
+What do i even do on this page lmao
 1. The cute robot I built to schedule and format bc I was lazy
 2. All the stats we have? 
 3. Soon to be archiver (API Calls to get history)
 4. Or I can do these as seperate posts and leave this as main project linking to the mini projects? With mini descriptions! 
+
+### Automated Scheduler
+
+
+
+### Statistics 
+
+
+
+### Archives 
+To be created. 
 
 [Link to test post](/2021/01/01/test.html)  
 *Hello this is a test description!* 

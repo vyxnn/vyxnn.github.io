@@ -1,0 +1,29 @@
+I"T<h1 id="cportfolio">cPortfolio</h1>
+
+<p><a href="https://cportfolio.herokuapp.com/"><strong>cPortfolio Website</strong></a><br />
+<a href="https://github.com/The-C-s/C-Portfolio">Github</a></p>
+
+<p><em>A web application developed for my final year capstone project at the University of Melbourne. This project involved working in a team of 5 students to develop an e-Portfolio application based off our assigned client’s requirements. The intent of this application was to provide a customised platform for users to showcase their work, and allowed them to send a personalized page to prospective employers.</em></p>
+
+<h3 id="tech-stack">Tech Stack</h3>
+<p>| hi | uwu |
+|Name   |Columns                               |
+|——-|————————————–|
+|<strong>Database:</strong>|MongoDB|    <br />
+<strong>Backend Framework:</strong> Express.js, Node.js<br />
+<strong>Frontend Framework:</strong> React</p>
+
+<p><strong>Deployment:</strong> Heroku <br />
+<strong>Web Design:</strong> Figma<br />
+<strong>Project Documentation:</strong> Confluence <br />
+<strong>Collaboration:</strong> Trello <br />
+<strong>API Documentation:</strong> Stoplight <br />
+<strong>Deployment Pipeline:</strong> Github Actions <br />
+<strong>Testing:</strong> Jest</p>
+
+<h3 id="front-end">Front End</h3>
+
+<h3 id="back-end">Back End</h3>
+
+<h3 id="design">Design</h3>
+:ET
