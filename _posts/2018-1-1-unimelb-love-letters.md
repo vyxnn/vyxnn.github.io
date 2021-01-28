@@ -17,7 +17,7 @@ What do i even do on this page lmao
 4. Or I can do these as seperate posts and leave this as main project linking to the mini projects? With mini descriptions! 
 
 ### Automated Scheduler
-
+Completely functional yayy!!
 
 
 ### Statistics 
@@ -25,9 +25,10 @@ What do i even do on this page lmao
 
 
 ### Archives 
-To be created. 
+To be created. (Look up API documentation again)
 
 [Link to test post](/2021/01/01/test.html)  
 *Hello this is a test description!* 
 
+Remember to like, comment and subscribe!
 <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUoMLoveLetters&tabs=timeline&width=500&height=300&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="500" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>

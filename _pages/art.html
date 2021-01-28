@@ -3,6 +3,25 @@ layout: default
 title: Art 
 permalink: /art/
 ---
-<div>
-    test
+
+<link rel="stylesheet" href={{ "/css/art.css" | relative_url }}>  
+<script src="../scripts/art.js"></script>
+
+
+<div class="artbody">
+    {% for post in site.tags.art %}
+    <a href="{{ post.url }}">
+    <div class="artpost">
+        <div>
+            {% capture path %}{{post.image | prepend: "/.."}}{% endcapture %}
+            <img class= "imgpreview" src= "{{path}}" alt="Image">
+        </div>
+    </br>
+        <div class="caption">
+        {{ post.title }}
+        </div>
+        </br>        
+    </div>
+    </a>
+    {% endfor %}
 </div>

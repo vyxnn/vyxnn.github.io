@@ -15,20 +15,23 @@ excerpt: "I would like to brag about this but in retrospect learning CSS in 2 da
 
 ### Tech Stack 
 
-Database: **MongoDB**  
-Backend Framework: **Express.js, Node.js**   
-Frontend Framework: **React, Redux**     
+Database: MongoDB   
+Backend Framework: Express.js, Node.js      
+Frontend Framework: React, Redux    
 
-Deployment: **Heroku**  
-Web Design: **Figma**   
-Project Documentation: **Confluence**   
-Collaboration: **Trello**   
-API Documentation: **Stoplight**  
-Deployment Pipeline: **Github Actions**   
-Testing: **Jest**  
+Deployment: Heroku   
+Web Design: Figma     
+Project Documentation: Confluence    
+Collaboration: Trello     
+API Documentation: Stoplight   
+Deployment Pipeline: Github Actions     
+Testing: Jest
 
 ### Front End 
 
 ### Back End 
 
 ### Design 
+
+|![](/images/cportfolio.jpg){:class="img-responsive" width="800px"} |
+| *The dashboard with posts* | 

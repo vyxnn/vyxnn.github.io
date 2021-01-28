@@ -1,0 +1,38 @@
+@font-face{
+    font-family: 'DINRegular';
+    src: url("../fonts/DINRegular.ttf") format("truetype");
+} 
+
+.artbody{ 
+    background-image: url("../images/star.gif");
+    max-width: 1248px; 
+}
+
+.artpost{ 
+    width: 230px; 
+    margin-top: 1%;
+    margin-bottom: 1%;   
+    margin-left: 8px;
+    padding-top: 2%; 
+    text-align: center; 
+    align-content: center; 
+    background-color:white;
+    border: solid; 
+    border-width: thin; 
+    border-color: grey; 
+    border-radius: 1px; 
+}
+
+.artpost .caption{ 
+    color: grey; 
+    margin-top: -5%; 
+    padding-right: 10%; 
+    font-family: 'DINRegular';
+    text-transform:uppercase;
+    font-size: 10px;
+    text-align: right !important
+}
+
+.artpost .imgpreview{ 
+    width: 80%; 
+}

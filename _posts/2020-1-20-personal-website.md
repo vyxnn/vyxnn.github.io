@@ -10,7 +10,7 @@ excerpt: "Fixing all the bad CSS I wrote in cPortfolio before attempting to buil
 
 [**Github**](https://github.com/vyxnn/vyxnn.github.io)  
 
-*My goals for this was mainly to improve my CSS skills from the [cPortfolio](/2020/10/30/cportfolio.html) Project. Also had the given bonus of being able to design something new, learning more html, markdown and how to create a static website in preparation for my next project. This post is mainly for recording my own progress.*
+*My goals for this was mainly to improve my CSS skills from the [cPortfolio](/2020/10/30/cportfolio.html) Project. Also had the added bonus of being able to design something new, learning more html, markdown and how to create a static website in preparation for my next project. This post is mainly for recording my own progress.*
 
 ### Zooming 
 
