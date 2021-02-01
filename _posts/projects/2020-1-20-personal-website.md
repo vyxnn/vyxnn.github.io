@@ -10,7 +10,7 @@ excerpt: "Fixing all the bad CSS I wrote in cPortfolio before attempting to buil
 
 [**Github**](https://github.com/vyxnn/vyxnn.github.io)  
 
-*My goals for this was mainly to improve my CSS skills from the [cPortfolio](/2020/10/30/cportfolio.html) Project. Also had the added bonus of being able to design something new, learning more html, markdown and how to create a static website in preparation for my next project. This post is mainly for recording my own progress.*
+My goals for this was mainly to improve my CSS skills from the [cPortfolio](/2020/10/30/cportfolio.html) Project. Also had the added bonus of being able to design something new, learning more html, markdown and how to create a static website in preparation for my next project. This post is mainly for recording my own progress.
 
 ### Zooming 
 
@@ -22,6 +22,10 @@ This was a problem that I came across while designing the [Project](/projects) p
 
 |![](/images/emptyspacediv.png){:class="img-responsive" width="425px"} ||![emptyspace](/images/goodspacediv.png){:class="img-responsive" width="425px"} | 
 |*Default behaviour*||*Intended behaviour*|
+
+### Learning how to use Masonry and imagesLoaded
+
+Although the above problem was solved easily using ```<html>```, I had an issue with the Masonry grid being loaded before the pictures were completeley loaded, resulting in overlapping elements. The only CSS solution I could find was to set the minimum height of a post ```<div>``` however it still resulted in overlapping issues for the longer posts, as well as adding a lot of white space around smaller posts. The solution was to use the 'imagesLoaded' package which would wait for the images to load before creating a Masonry grid. Overall it was simple to use, however it did require learning jQuery and adding javascript to my website, which was not something I intended to use for a static website. The most helpful knowledge in jQuery would be knowing that ```$``` retrieves an element and the ```$(document).ready(function(){})``` waits for the entire page to load before running a function. 
 
 ### Learning how to use Markdown
 *ft. A lot of help from this [source](https://www.markdownguide.org/basic-syntax/).* 

@@ -1,8 +1,8 @@
 ---
 layout: artpost
-title: "Rain Painting"
+title: "雨"
 tag: art
 image: "/images/rainpainting.jpg"
 ---
 
-# Rain Painting  
+# Rain (雨)      
