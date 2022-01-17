@@ -10,16 +10,16 @@ head{
 body{ 
     margin-top: 0px;
     align-items: center;
-    max-width: 1248px; 
     min-width: 300px; 
     margin: 0 auto; 
     height: auto; 
 }
 
 .topnav{
-    width: 100%;
+    width: auto; 
     background-color: black; 
-    text-align: right; 
+    text-align: right;
+    height: 12vh; 
 }
 
 .topnav .title{ 

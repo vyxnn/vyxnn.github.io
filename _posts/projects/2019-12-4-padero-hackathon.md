@@ -4,9 +4,9 @@ title: "PADERO Hackathon"
 tag: project
 image: "/images/pepper-demo.jpg"
 excerpt: "That time I accidentally participated in a hackathon for free food but ended up winning"
+skills: ["Hackathon", "Robotics", "Choregraphe", "Presentation"]
 ---
 
-# PADERO Hackathon
 [**First Place**](https://www.research-in-germany.org/the-future-of-work/news-and-stories/padero_article_part2.html)
 
 *The aim of the [PADERO](http://research-in-germany.org/the-future-of-work/research-networks/research-network-padero.html) Project is to develop creative applications for the use of robotics in the field of  elderly care and nursing. As a German - Japanese collaboration project, the PADERO Project can help normalize the use of robotics in nursing homes, helping to solve issues such as a shortage in nursing-home workers.*  
@@ -26,8 +26,7 @@ For the implementation of Pepper's movements, Choregraphe provided a lot of the 
 ### The Result
 The presentation was the final component of the hackathon, and everyone in our group who was avaliable was expected to present. Usually this would have been the most nerve wracking component for me as I spent the vast majority of my time on Pepper instead of preparing for the presentation. However, I realised that unlike the weekly speeches I had to give in my Japanese classes about completely random topics, I had the rare opportunity to be speaking in my native language about a topic I was extremely passionate in. This alleviated a lot of the concerns I did have about public speaking, and was a turning point in becoming more confident in my communication and public speaking abilities. The presentation and demonstration of our 'Pepper Sensei Exercise Class' ended up being the two highest scoring areas and resulted in our team's win.   
 
-  
-
+<br><br>
 <div class = "twitter-embed">
 <blockquote class="twitter-tweet" data-theme="dark">
 <p lang="en" dir="ltr">And the winners of the Hackathon are: Quinton Hayward, Yukai Lu, Victoria Deng, Fumi Takahashi and Aiki Akamura with &quot;Pepper Sensei&#39;s Exercise Class&quot;! Congratulations!

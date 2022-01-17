@@ -1,0 +1,49 @@
+I"<h1 id="cportfolio">cPortfolio</h1>
+
+<p><a href="https://cportfolio.herokuapp.com/"><strong>cPortfolio Website</strong></a><br />
+<a href="https://github.com/The-C-s/C-Portfolio">Github</a></p>
+
+<p><em>A web application developed for my final year capstone project at the University of Melbourne. This project involved working in a team of 5 students to develop an e-Portfolio application based off our assigned client’s requirements. The intent of this application was to provide a customised platform for users to showcase their work, and allowed them to send a personalized page to prospective employers.</em></p>
+
+<h3 id="full-technology-stack">Full Technology Stack</h3>
+
+<p><strong>Database</strong>: MongoDB <br />
+<strong>Backend Framework</strong>: Express.js, Node.js    <br />
+<strong>Frontend Framework</strong>: React, Redux</p>
+
+<p><strong>Deployment</strong>: Heroku <br />
+<strong>Web Design</strong>: Figma   <br />
+<strong>Project Documentation</strong>: Confluence
+<strong>File Storage</strong>: Cloudinary  <br />
+<strong>Collaboration</strong>: Trello   <br />
+<strong>API Documentation</strong>: Stoplight <br />
+<strong>API Testing</strong>: Postman
+<strong>Deployment Pipeline</strong>: Github Actions   <br />
+<strong>Testing</strong>: Jest</p>
+
+<h3 id="front-end">Front End</h3>
+<p>Our team was very lucky to have a member who had some experience with React, and helped set up the fundamentals of the project for us. In retrospect, I feel that React is useful for a web development framework, but also has a high learning curve. Over the period of time I spent learning React/Redux, I don’t think I was fully able to grasp the concept of reducers and app states, and had to look over the existing code quite often to help.</p>
+
+<p>The main things I learnt from working on the frontend was React and managing frontend logic using Javascript. As I wrote some of the APIs, I learnt how to actually access them via the frontend, by passing in variables for <code class="language-plaintext highlighter-rouge">POST</code> requests, and how to retrieve information using <code class="language-plaintext highlighter-rouge">GET</code> requests. From there I learnt how to manipulate the data returned (in <code class="language-plaintext highlighter-rouge">JSON</code> format), and then used <code class="language-plaintext highlighter-rouge">HTML</code> and <code class="language-plaintext highlighter-rouge">javascript</code> to display them on the page. At first it was very difficult to get page elements where I wanted to on the page, but learning how to use <code class="language-plaintext highlighter-rouge">CSS</code> and the best practices really helped to improve the look of the website.</p>
+
+<h3 id="back-end">Back End</h3>
+<p>The process of writing custom APIs was very tedious. Using a Mongo Database, Mongoose was used to help set it up and connect it to our backend. While that Mongoose did provide some basic framework to help save our data, a lot of custom functions had to be written to save ‘objects’ such as a post. For every object, we had to write which fields to save it to, clean the data ourselves and pass it through various forms of middleware to ensure that the user has the permissions to modify an object. While it was certainly good to learn how it works, using a Content Management System (CMS) or a framework which already has a semi-functioning save could have saved us a lot of time in development. Debugging via Postman was also helpful, though sometime we got very vague errors like CORS which were hard to solve as beginners.</p>
+
+<p>Additionally, we also had to set up image and file storage, as it could not be stored via Heroku (which rebuilds everytime the website needs to be up). We used Cloudinary to store images and PDFs, but again had to set up where it would be stored, relevant metadata or naming conventions, and how to serve a file. As the post function also doesn’t encompass both files and data, we also had to incorporate new APIs to save various fields, such as a profile image, then ensure that it runs atomically. While it did take a lot of dedicated work to set up, once we managed to get everything working, it was relatively stable and didn’t require high maintenance unlike the Frontend.</p>
+
+<h3 id="design">Design</h3>
+<p>I only previously had very traditional art experience, and very little knowledge of web design and the capabilities of CSS, so while I was excited to design a website for the first time, I would definitely make a lot of changes with better knowledge of UI/UX concepts, and with the capabilities of CSS and HTML in mind. While CSS can theoretically create anything, some designs such as layering multiple <code class="language-plaintext highlighter-rouge">&lt;div&gt;</code> elements on top of each other are very impractical, and I would also need to consider how</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/images/cportfolio/cportfolio.jpg" alt="" class="img-responsive" width="800px" /></td>
+    </tr>
+    <tr>
+      <td><em>The dashboard with posts</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="other">Other</h3>
+:ET

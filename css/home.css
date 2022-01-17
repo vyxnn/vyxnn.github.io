@@ -7,7 +7,7 @@
     z-index: 1; 
     align-self: center;
     width: 100%;
-    height: 500px;   
+    height: 100vh;   
     object-fit: cover;   
 }
 
@@ -16,9 +16,7 @@
     padding-top: 0.1%; 
     align-self: center;
     position: absolute;
-    max-width: 1248px; 
-    min-width: 300px; 
-    max-height: 500px; 
+    max-height: 88vh; 
     background-color: white;
     width: 100%; 
     height: auto; 
@@ -28,7 +26,7 @@
     position: relative; 
     width: 20%; 
     text-align: center;
-    max-height: 500px; 
+    max-height: 88vh; 
     float: left; 
     display: block; 
     overflow: hidden; 
@@ -39,6 +37,8 @@
     position: absolute; 
     top: 10%; 
     /*Centering absolute elements*/
+    width: 70%; 
+    margin: auto;
     left: 0; 
     right: 0; 
     margin-left: auto; 
@@ -52,11 +52,11 @@
 
 .about .pfp .botbtn{
     position: absolute;
-    left: 0; 
-    right: 0; 
-    margin-left: auto; 
-    margin-right: auto;
     top: 85%; 
+    width: 70%; 
+    margin: auto;
+    left: 0; 
+    right: 0;     
     background-color: white; 
     font-family: 'DINRegular';
     font-size: 30px; 

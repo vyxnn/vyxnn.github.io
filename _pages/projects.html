@@ -10,13 +10,17 @@ permalink: /projects/
     {% for post in site.tags.project %}
     <a href="{{ post.url }}">
     <div class="post">
-    </br>
+        </br>
         {{ post.title }}
         <div class = "excerpt">
-        </br>
+            </br>
             {{post.excerpt}}
+            <br><br>
+            {% assign d = post.date | date: "%-d" %}
+            {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %} 
+            {{ post.date | date: "%B, %Y" }} 
         </div>
-    </br>
+        </br>
         <div>
             {% capture path %}{{post.image | prepend: "/.."}}{% endcapture %}
             <img class= "imgpreview" src= "{{path}}" alt="Image">

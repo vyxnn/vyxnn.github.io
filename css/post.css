@@ -3,11 +3,34 @@
     src: url("../fonts/DINRegular.ttf") format("truetype");
 } 
 
-.sideimage{
-    width: 21%; 
+.date{ 
+    font-size: small;
+    color: grey; 
+}
+
+.sidebar{
+    width: 23%; 
     padding: 2%; 
-    height: auto; 
     float: left; 
+}
+
+.sideimage{
+    width: 100%; 
+}
+
+.skilltag{ 
+    float:left;
+    font-family: 'DINRegular';
+    font-size: small;
+    background-color: lightgray;
+    padding-top: 2%;     
+    padding-bottom: 2%; 
+    padding-left: 3%;
+    padding-right: 3%;
+    border-style: solid; 
+    border-radius: 25px; 
+    margin-right: 1%; 
+    margin-top: 2%;
 }
 
 .text{ 
@@ -19,8 +42,9 @@
 .textbody{ 
     font-family: 'DINRegular';
     float: left;
-    width: 71%;  
+    width: 65%;  
     padding-top: 0% !important; 
+    padding-left: 3% !important; 
     padding: 2%; 
 }
 
@@ -34,3 +58,4 @@ a:focus{
 a:visited{
     color:#656cba; 
 }
+

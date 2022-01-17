@@ -1,13 +1,31 @@
 ---
 layout: default
 ---
+<link rel="stylesheet" href={{ "/css/reset.css" | relative_url }}>  
 <link rel="stylesheet" href={{ "/css/post.css" | relative_url }}>  
 <div>  
-<div>
-    {% capture path %}{{page.image | prepend: "/.."}}{% endcapture %}
-    <img class= "sideimage" src= "{{path}}" alt="Image">
-</div>
-<div class="textbody">
-    {{content}}
-</div>
+    <div class = "sidebar">
+        {% capture path %}{{page.image | prepend: "/.."}}{% endcapture %}
+        <img class= "sideimage" src= "{{path}}" alt="Image">
+        <br>
+        {%if page.skills%} 
+            {%for skill in page.skills%}
+                <div class = "skilltag">{{skill}}</div> 
+            {%endfor%}
+        {%endif%}
+    </div>
+    <div class="textbody">
+        <h1>{{page.title}}</h1>
+        {%if page.date%}
+        <p class = "date">
+            {% assign d = page.date | date: "%-d" %}
+            {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %} 
+            {{ page.date | date: "%B, %Y" }} 
+        </p>
+        {%endif%}
+        <br>
+        <hr>
+        <br>
+        {{content}}
+    </div>
 </div>
