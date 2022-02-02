@@ -3,6 +3,47 @@ layout: default
 title: CV 
 permalink: /cv/
 ---
-<div>
-    test
+
+<link rel="stylesheet" href={{ "/css/cv.css" | relative_url }}>  
+
+{%comment%}
+https://codepen.io/alvarotrigo/pen/ExwYyNW
+
+https://codepen.io/ygc/pen/AXzVya
+{%endcomment%}
+
+<div class="container" id="timeline">
+    {%for post in site.tags.cv%}
+    <div class="timeline-block">
+        <div class="timeline-img cd-picture"></div>
+        <div class="timeline-content">
+            <div class = "content">
+                <span class="cd-date">           
+                    {% assign d = post.date | date: "%-d" %}
+                    {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %} 
+                    {{ post.date | date: "%B, %Y" }} 
+                </span>
+                <h2> {{post.title}} </h2>
+                <br>
+                <div class = "content-info">
+                    <div class = "subtitle">{{post.subtitle}}</div>
+                    <div class = "date"> 
+                        {{ post.date | date: "%B %Y" }} 
+                        {%if post.end_date%}
+                            {%if post.end_date == "Present"%}
+                            - Present
+                            {%else%}
+                            -
+                            {{ post.end_date | date: "%B %Y" }} 
+                            {%endif%}
+                        {%endif%}
+                    </div>
+                </div>
+                <br>
+                <div class = "excerpt">{{post.excerpt}}</div>
+                <div class = "body">{{post.content}}</div>
+            </div>
+        </div>
+    </div>
+    {%endfor%}
 </div>

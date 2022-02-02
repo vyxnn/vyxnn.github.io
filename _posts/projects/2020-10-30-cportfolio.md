@@ -3,12 +3,11 @@ layout: post
 title: "cPortfolio"
 tag: project
 image: "/images/cportfolio-logo.png"
-excerpt: "Final Year Capstone Project (First time learning how to develop a website)"
+excerpt: "Final Year Capstone Project (Learning how to develop a web application)"
 skills: ["React", "Node.js", "Javascript", "MongoDB", "Redux", "Git", "SASS", "CSS", "HTML"]
+github: "https://github.com/The-C-s/C-Portfolio"
+website: "https://cportfolio.herokuapp.com/"
 ---  
-
-[**cPortfolio Website**](https://cportfolio.herokuapp.com/)  
-[Github](https://github.com/The-C-s/C-Portfolio)   
 
 *A web application developed for my final year capstone project at the University of Melbourne. This project involved working in a team of 5 students to develop an e-Portfolio application based off our assigned client's requirements. The intent of this application was to provide a customised platform for users to showcase their work, and allowed them to send a personalized page to prospective employers.* 
 
@@ -20,13 +19,16 @@ skills: ["React", "Node.js", "Javascript", "MongoDB", "Redux", "Git", "SASS", "C
 
 **Deployment**: Heroku   
 **Web Design**: Figma     
-**Project Documentation**: Confluence
+**Project Documentation**: Confluence   
 **File Storage**: Cloudinary    
 **Collaboration**: Trello     
 **API Documentation**: Stoplight   
-**API Testing**: Postman
+**API Testing**: Postman   
 **Deployment Pipeline**: Github Actions     
-**Testing**: Jest
+**Testing**: Jest    
+
+### Process 
+For this project, our team used an 'Agile' process. We had a weekly standup with our project supervisor, in addition to a weekly workshop. While most Agile teams would usually have a daily standup, due to university commitments and other constraints that wasn't possible, though we did have semi-frequent meetings twice a week just to check up on progress, work together and help each other out. We also had meetings with our clients (also students) every 3 weeks after our sprints, which helped to clarify their requirements and get feedback on the project. 
 
 ### Front End 
 Our team was very lucky to have a member who had some experience with React, and helped set up the fundamentals of the project for us. In retrospect, I feel that React is useful for a web development framework, but also has a high learning curve. Over the period of time I spent learning React/Redux, I don't think I was fully able to grasp the concept of reducers and app states, and had to look over the existing code quite often to help. 
@@ -62,4 +64,3 @@ There was also a cool sidebar that a member of my team created [here](https://cp
 Overall, this project was my first taste of web development, and actually one of the reasons I developed an interest in it. It opened up my eyes to how versatile technology is, and appealed to my sense of creativity. I really think its amazing how I can just design a website and be able to have it on the internet. <br><br>
 
 The project was also really fun to work on, though stressful at times. I had an amazing team, supervisor and coordinator for this subject, and aside from the practical skills of developing a web application, we also emulated what the process of developing software would be like in the industry. Looking back on this time, it really help set me up with skills for the future, and was the stepping stone in getting me involved in hackathons and an internship. I also really enjoyed all the time I dedicated to this subject, and how much fun I had with my team while developing this, especially the chaos at the end where we had to make sure everything was ready for a demo. The lectures were unconventional in the sense that we didn't officially learn any languages or frameworks, but had a lot of interesting speakers talking about industry life and discussing topics such as ethics (which I really love). <br><br>
- 

@@ -4,7 +4,6 @@ $(document).ready(function(){
             // init Masonry after all images have loaded
             $projectbody.masonry({
                 itemSelector: '.post', 
-                columnWidth: 312      
             });
       });
 });

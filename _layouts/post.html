@@ -5,14 +5,35 @@ layout: default
 <link rel="stylesheet" href={{ "/css/post.css" | relative_url }}>  
 <div>  
     <div class = "sidebar">
+        {%if page.image%}
         {% capture path %}{{page.image | prepend: "/.."}}{% endcapture %}
         <img class= "sideimage" src= "{{path}}" alt="Image">
-        <br>
+        <br><br>
+        {%endif%}
         {%if page.skills%} 
+        <div style="height: 100%; background-color: pink;">
             {%for skill in page.skills%}
                 <div class = "skilltag">{{skill}}</div> 
             {%endfor%}
+        </div>
+        <div class = "sidelink">
+        </div>
         {%endif%}
+        {%if page.github%}
+        <div class = "sidelink">
+            <a href = {{page.github}}><img class="icon" src="/images/icons/github.png"/> Github</a>
+        </div>
+        {%endif%}
+        {%if page.website%}
+        <div class = "sidelink">
+            <a href = {{page.website}}><img class="icon" src="/images/icons/globe.png"/> Website</a>
+        </div>
+        {%endif%}
+        {%for share in page.share%}
+        <div class = "sidelink">
+            <a href = {{share.link}}><img class="icon" src="/images/icons/external.png"/> {{share.title}}</a>
+        </div>
+        {%endfor%}
     </div>
     <div class="textbody">
         <h1>{{page.title}}</h1>

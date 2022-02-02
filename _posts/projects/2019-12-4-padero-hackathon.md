@@ -3,16 +3,17 @@ layout: post
 title: "PADERO Hackathon"
 tag: project
 image: "/images/pepper-demo.jpg"
-excerpt: "That time I accidentally participated in a hackathon for free food but ended up winning"
+excerpt: "A hackathon where I used a robot to create an exercise programme targeted towards the elderly."
 skills: ["Hackathon", "Robotics", "Choregraphe", "Presentation"]
+share: [{title: "First Place", link: "https://www.research-in-germany.org/the-future-of-work/news-and-stories/padero_article_part2.html"}]
 ---
-
-[**First Place**](https://www.research-in-germany.org/the-future-of-work/news-and-stories/padero_article_part2.html)
 
 *The aim of the [PADERO](http://research-in-germany.org/the-future-of-work/research-networks/research-network-padero.html) Project is to develop creative applications for the use of robotics in the field of  elderly care and nursing. As a German - Japanese collaboration project, the PADERO Project can help normalize the use of robotics in nursing homes, helping to solve issues such as a shortage in nursing-home workers.*  
 
 ### About
 The hackathon hosted by the University of Siegen (Germany) and Waseda University (Japan) consisted of deciding on a hypothetical situation in a nursing home, implementing a solution to the problem on a robot or technology of choice and then presenting the final product to a panel of judges. The issue that my group chose to approach was allowing the elderly to maintain their social and physical health. The solution implemented to this issue was creating an exercise programme using a humanoid [Pepper](https://www.softbankrobotics.com/emea/en/pepper) robot.  
+<br><br>
+Fun fact: I actually was not aware that this was a hackathon, as my AI teacher advertised this a 'robotics workshop' with 'free food' and he would give us permission to skip his class to attend. The first 3-4 hours were a workshop, however I was very surprised when informed that I was competing in a hackathon. I am glad that this happened however, as I previously assumed a higher level of technological competence to participate in hackathons, and it has encouraged me to participate in a lot more.  
 
 ### My Role
 My main role in the hackathon was programming the Pepper robot, nicknamed 'Pepper Sensei', using 'Choregraphe'. Choregraphe provided an interface to create different movements and actions on Pepper, and allowed us to test our solution on a virtual robot before using it on Pepper itself. In combination with my other team members, I was involved with the programming of Pepper's head, arm and finger movements, and the synchronization of those movements with verbal cues and the videos chosen by my team. 

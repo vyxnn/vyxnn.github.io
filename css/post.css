@@ -8,14 +8,39 @@
     color: grey; 
 }
 
+.icon{ 
+    width: 15px;
+    height: 15px; 
+    margin-top: auto; 
+    margin-bottom: auto; 
+}
+
 .sidebar{
     width: 23%; 
     padding: 2%; 
     float: left; 
+    font-family: 'DINRegular';
+    font-size: small;
+    height: auto; 
 }
 
 .sideimage{
     width: 100%; 
+}
+
+.sidelink{ 
+    display: table;
+    clear: both;
+    padding: 2%;
+    font-size: large; 
+    color: black;
+    margin-bottom: 1%;
+}
+
+.sidelink a:link, .sidelink a:hover, .sidelink a:focus, .sidelink a:visited{ 
+    color: black; 
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .skilltag{ 
@@ -35,8 +60,8 @@
 
 .text{ 
     font-family: 'DINRegular';
-    padding-top: 0% !important; 
-    padding: 1%; 
+    padding-top: 1% !important; 
+    padding: 10%; 
 }
 
 .textbody{ 

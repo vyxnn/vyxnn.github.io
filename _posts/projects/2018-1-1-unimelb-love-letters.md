@@ -3,15 +3,15 @@ layout: post
 title: "Unimelb Love Letters"
 tag: project
 image: "/images/umll.png"
-excerpt: "A progression of how I got bored of copying and pasting posts, so I decided to write scripts to do my job for me"
+excerpt: "Building an automation process to filter, format and post student submissions to a Facebook Page. "
 skills: ["Google Scripts", "Javascript", "Google Sheets", "Facebook API", "Google API"]
+website: "https://www.facebook.com/UoMLoveLetters"
 ---
 
-[**Unimelb Love Letters Page**](https://www.facebook.com/UoMLoveLetters)  
-The automation of tedious processes, going from copy and paste to scripts that handle all the formatting, spam filtering, posting and scheduling every night. 
+*A record of how I automated a very repetative process, going from manually copying and pasting in my first year to developing scripts that handle all the formatting, spam filtering, posting and scheduling every night.*
 
 ### About 
-While I do have many interesting stories of being a admin of this page, writing code for the everyday functioning of the page was one of the reasons I was really interested in computing and other technological issues such as ethics, particularly regarding the impact on social media on our lives.   
+While I do have many interesting stories of being a admin of this page, writing code for the everyday functioning of the page was one of the reasons I was really interested in computing and other technological issues such as ethics, particularly regarding the impact on social media on our lives, as well as how technology can be efficiently utilised without detracting from human experiences. 
 <br>
 From a technological point of view, I used this page to test out a lot of the skills I developed over my studies at university. Essentially I started with only knowledge of excel formulas, which gave the submission and posting statistics for the page (due to personal curiousity). As I progress through uni, I learnt more programming concepts, from for loops and if statements that brought me a spam filter, reading documenation and object oriented concepts which brought a formatter, and finally the knowledge of APIs which finalised the scheduler. 
 <br>
@@ -49,7 +49,7 @@ The current formula only requires one formula to be created for each month as it
 
 ### Final 
 
-The final result is that all of the components are combined to schedule posts for the page, at variable intervals dependent on how many submissions we received recently. It has been really helpful in reducing the amount of work that the team has, and allowing us to redirect our time into engaging with our community, such as creating a club. While I do have a interest in developing an AI to filter submissions in the future, it would require a lot more nuance in how it is used, to ensure that it is not unfairly approving or rejecting posts from user biases. 
+The final result is that all of the components are combined to schedule posts for the page, at variable intervals dependent on how many submissions we received recently. It has been really helpful in reducing the amount of work that the team has, and allowing us to redirect our time into engaging with our community, such as creating a club. I do however feel that it has lowered the engagement of the admin team with the page, as we now only need one person to read and approve posts which tends to be a more individual job. Perhaps when passing over the duties to a new team, we could encourage them to vote or discuss submissions more. I also have an interest in developing an AI to filter submissions in the future, but it would require a lot more nuance in how it is used, to ensure that it is not unfairly approving or rejecting posts from user biases.  
 <br><br>
 Posts on our page:<br><br>
 <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUoMLoveLetters&tabs=timeline&width=500&height=300&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="800px" height="300px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>

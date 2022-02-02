@@ -22,8 +22,10 @@ permalink: /projects/
         </div>
         </br>
         <div>
+            {%if post.image%}
             {% capture path %}{{post.image | prepend: "/.."}}{% endcapture %}
             <img class= "imgpreview" src= "{{path}}" alt="Image">
+            {%endif%}
         </div>
     </div>
     </a>

@@ -2,14 +2,13 @@
 layout: post
 title: "Personal Website"
 tag: project
-image: "/images/matsuda.jpg"
-excerpt: "Fixing all the bad CSS I wrote in cPortfolio before attempting to build another website"
+#image: "/images/matsuda.jpg"
+excerpt: "Developing my design and software development skills by building this website"
 skills: ["CSS", "HTML", "Markdown", "Jekyll", "Design", "Git"]
+github: "https://github.com/vyxnn/vyxnn.github.io"
 ---
 
-[**Github**](https://github.com/vyxnn/vyxnn.github.io)  
-
-My goals for this was mainly to improve my CSS skills from the [cPortfolio](/2020/10/30/cportfolio.html) Project. Also had the added bonus of being able to design something new, learning more html, markdown and how to create a static website in preparation for my next project. This post is mainly for recording my own progress.
+My goals for this was mainly to improve my CSS skills from the [cPortfolio](/2020/10/30/cportfolio.html) Project. Also had the added bonus of being able to design something new, learning more html, markdown and how to create a static website in preparation for my next project. This is mainly for recording my own progress.
 
 ### Zooming 
 
@@ -27,7 +26,7 @@ This was a problem that I came across while designing the [Project](/projects) p
 Although the above problem was solved easily using ```<html>```, I had an issue with the Masonry grid being loaded before the pictures were completeley loaded, resulting in overlapping elements. The only CSS solution I could find was to set the minimum height of a post ```<div>``` however it still resulted in overlapping issues for the longer posts, as well as adding a lot of white space around smaller posts. The solution was to use the 'imagesLoaded' package which would wait for the images to load before creating a Masonry grid. Overall it was simple to use, however it did require learning jQuery and adding javascript to my website, which was not something I intended to use for a static website. The most helpful knowledge in jQuery would be knowing that ```$``` retrieves an element and the ```$(document).ready(function(){})``` waits for the entire page to load before running a function. 
 
 ### Templating 
-After coming back to this website (with even more CSS fixes), I found out that Jekyll actually uses the same template language as Django, which made the reuse of template designs, and rewriting DRY code much easier. Previously, I knew how to access variables using the dot format, but now I can also include additional logic such as looping and cases. Other concepts such as template filters also exist in both Django and Jekyll, which allows for the inclusion of dates in my posts, which can be formatted via a filter.
+After coming back to this website (with even more CSS fixes), I found out that Jekyll actually uses the same template language as Django, which made the reuse of template designs, and rewriting DRY code much easier. Previously, I knew how to access variables using the dot format, but now I can also include additional logic such as looping and cases. Other concepts such as template filters also exist in both Django and Jekyll, which allows for the inclusion of dates in my posts, which can be formatted via a filter. 
 
 
 ### Learning how to use Markdown

@@ -18,3 +18,7 @@ hr{
     color:gray;
     background-color:gray;
 }
+
+ul{ 
+	list-style-type: circle;
+}

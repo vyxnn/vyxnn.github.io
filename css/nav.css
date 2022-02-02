@@ -43,23 +43,23 @@ body{
     padding-right: 1%; 
     text-decoration:none; 
     padding-top: -20%; 
-    color: white; 
+    color: white !important; 
 }
 
 /*fix this*/
 .topnav .a .home:active{
-    color: white; 
+    color: white !important; 
 }
 
 .topnav .a:link{
-    color: white; 
+    color: white !important; 
 }
 
 .topnav .a:hover{
-    color:white; 
+    color:white !important; 
 }
 
 .topnav a:visited{
-    color: white;
+    color: white !important;
 }
   

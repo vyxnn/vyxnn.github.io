@@ -4,13 +4,10 @@ title: "Sakura Earrings"
 tag: art
 image: "/images/earrings.jpg"
 ---
-
-# Sakura Earrings
-
 ### Tools 
 Used washi paper for the cranes, 0.7 x 40mm gold eyepins and fishhook earrings.
-   
-I also tested various finishes for the paper, however none of them are suitable for good long term earrings, since they tend to crack or have undesired effects on the paper. I'm unsure how to make the cranes have a glossy and waterproof finish, however I imagine it's probably an expensive solution. 
+<br><br>
+I also tested various finishes for the paper, however none of them are suitable for good long term earrings, since they tend to crack or have undesired effects on the paper. I'm unsure how to make the cranes have a glossy and waterproof finish, though resin or another plastic finish may work if applied thin enough. 
 
 ### Inspiration  
 
