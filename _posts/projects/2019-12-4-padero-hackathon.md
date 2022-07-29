@@ -5,7 +5,7 @@ tag: ['project', 'highlight']
 excerpt: "A hackathon where I used a robot to create an exercise programme targeted towards the elderly."
 skills: ["Hackathon", "Robotics", "Choregraphe", "Presentation"]
 share: [{title: "First Place", link: "https://www.research-in-germany.org/the-future-of-work/news-and-stories/padero_article_part2.html"}]
-image: "/images/pepper-card.png/"
+image: "/images/pepper-card.png"
 card_blurb: "
 <p>
     Pepper Sensei is a social exercise programme that is delivered by a humanoid Pepper robot. 

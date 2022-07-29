@@ -6,7 +6,7 @@ excerpt: "A web application developed as part of CISSA's Codebrew Hackathon"
 skills: ["React", "Redux", "MongoDB", "HTML", "CSS", "Node.js", "Javascript", "Hackathon"]
 github: "https://github.com/McNuggets-of-Codebrew"
 share: [{title: "Runners Up", link: "https://www.facebook.com/events/1196648824126353?post_id=1226048934519675&view=permalink"}]
-image: "/images/fountain-card.png/"
+image: "/images/fountain-card.png"
 card_blurb: "   <p> A website developed as part of my university's hackathon (CISSA's Codebrew). 
                     We were selected to present at the finals, and were runners up in our category. 
                 </p>

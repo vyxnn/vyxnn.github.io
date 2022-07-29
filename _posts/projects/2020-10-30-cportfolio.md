@@ -6,7 +6,7 @@ excerpt: "Final Year Capstone Project (Learning how to develop a web application
 skills: ["React", "Node.js", "Javascript", "MongoDB", "Redux", "Git", "SASS", "CSS", "HTML"]
 github: "https://github.com/The-C-s/C-Portfolio"
 website: "https://cportfolio.herokuapp.com/"
-image: "/images/cportfolio-card.png/"
+image: "/images/cportfolio-card.png"
 card_blurb: "
     <p>
         A web application developed as part of my final year capstone project. 

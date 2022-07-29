@@ -6,7 +6,7 @@ tag: project
 excerpt: "Developing my design and software development skills by building this website"
 skills: ["CSS", "HTML", "Markdown", "Jekyll", "Design", "Git"]
 github: "https://github.com/vyxnn/vyxnn.github.io"
-image: "/images/personal-card.png/"
+image: "/images/personal-card.png"
 
 ---
 

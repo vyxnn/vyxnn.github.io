@@ -5,7 +5,7 @@ tag: project
 excerpt: "Building an automation process to filter, format and post student submissions to a Facebook Page. "
 skills: ["Google Scripts", "Javascript", "Google Sheets", "Facebook API", "Google API"]
 website: "https://www.facebook.com/UoMLoveLetters"
-image: "/images/umll-card.png/"
+image: "/images/umll-card.png"
 ---
 
 *A record of how I automated a very repetative process, going from manually copying and pasting in my first year to developing scripts that handle all the formatting, spam filtering, posting and scheduling every night.*

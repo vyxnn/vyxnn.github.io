@@ -16,7 +16,7 @@ c1: ["https://drive.google.com/uc?export=view&id=1brlmq5u31pb6gQwYcqAquhe0DOBHu8
 "https://drive.google.com/uc?export=view&id=1ZQiwKcBKMIw_Tu3qAfR2lFmBEGOpeJhJ", 
 "https://drive.google.com/uc?export=view&id=16dObbOE2DoObspQtORHHJ-EIDZN116GF", 
 ]
-image: "/images/ttb-card.png/"
+image: "/images/ttb-card.png"
 card_blurb: "                                
             <p> A website developed for my Software Processes and Management project. 
                 It provides an interface for schools to book and cancel appointments, and administrators to schedule and confirm bookings. 
