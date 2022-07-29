@@ -56,7 +56,6 @@ body{
     opacity: 0;
     background: #dcdbfe;
     color: #3e397a;
-    font-size: normal;
     overflow: auto;
     text-overflow: ellipsis;
 }
