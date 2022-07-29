@@ -2,7 +2,7 @@
 layout: post
 title: "Memento Mori"
 tag: art
-image: "/images/memento-mori.jpg"
+image: "/images/memento-mori.JPG"
 ---
 *A painting I completed as part of my still life painting class. Memento Mori means 'Remember that you will die' in Latin, and often incorporates a lot of symbolism regarding death, such as human skulls.*
 
