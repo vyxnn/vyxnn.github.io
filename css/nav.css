@@ -21,11 +21,9 @@ body{
     position: relative; 
     border-radius: 0 !important;
     border: none !important; 
-    height: 60vh; 
 }
 
 .h-card img{ 
-    height: 60vh; 
     object-fit: contain;
     border-radius: 0 !important;
     border: none !important; 

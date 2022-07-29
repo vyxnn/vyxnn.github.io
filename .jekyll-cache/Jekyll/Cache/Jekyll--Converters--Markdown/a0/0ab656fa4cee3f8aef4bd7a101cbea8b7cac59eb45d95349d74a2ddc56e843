@@ -1,4 +1,4 @@
-I"}(<p>My goals for this was mainly to improve my CSS skills from the <a href="/2020/10/30/cportfolio.html">cPortfolio</a> Project. Also had the added bonus of being able to design something new, learning more html, markdown and how to create a static website in preparation for my next project. This is mainly for recording my own progress.</p>
+I")<p>My goals for this was mainly to improve my CSS skills from the <a href="/2020/10/30/cportfolio.html">cPortfolio</a> Project. Also had the added bonus of being able to design something new, learning more html, markdown and how to create a static website in preparation for my next project. This is mainly for recording my own progress.</p>
 
 <h3 id="zooming">Zooming</h3>
 
@@ -72,5 +72,6 @@
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Clean up code (remove unused images and css/js files)</li>
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Update carousel used in blog posts to use bootstrap</li>
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Better CV design</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Improve mobile UI/UX</li>
 </ul>
 :ET
