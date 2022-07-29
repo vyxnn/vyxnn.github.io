@@ -64,3 +64,4 @@ My only complaint about Bootstrap that it can be a bit plain for UI/UX designs. 
 - [ ] Clean up code (remove unused images and css/js files)
 - [ ] Update carousel used in blog posts to use bootstrap 
 - [ ] Better CV design 
+- [ ] Improve mobile UI/UX
