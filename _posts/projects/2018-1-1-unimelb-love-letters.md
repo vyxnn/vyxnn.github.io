@@ -2,10 +2,10 @@
 layout: post
 title: "Unimelb Love Letters"
 tag: project
-image: "/images/umll.png"
 excerpt: "Building an automation process to filter, format and post student submissions to a Facebook Page. "
 skills: ["Google Scripts", "Javascript", "Google Sheets", "Facebook API", "Google API"]
 website: "https://www.facebook.com/UoMLoveLetters"
+image: "/images/umll-card.png/"
 ---
 
 *A record of how I automated a very repetative process, going from manually copying and pasting in my first year to developing scripts that handle all the formatting, spam filtering, posting and scheduling every night.*
@@ -21,7 +21,7 @@ In my final semester (after [cPortfolio](/2020/10/30/cportfolio.html)) I learnt 
 
 The API used can be found in the [documentation](https://developers.facebook.com/docs/pages/publishing/) created by Facebook. The only modification I had to make was sending the `message` as `POST` data instead of a query parameter, as most of our submissions exceeded the character limit. Submitting it as `POST` data instead, allowed for long submissions to be posted consistently. The other parameters required are `ACCESS_TOKENS` which are also explainted in the documentation. Previously, I had to update the token every 3 months as it would expire, however I later found that using a long-term User token with page access permissions does not expire. As a result, I use that token in my script to get a page access token everytime it is run, which ensures that I do not need to constantly update this script unless permissions are revoked. <br><br>
 
-For the posting side of the API, we already had the formatted post from using our Formatter. The only other parameter required was the posting time. This I created by using the previous data taken over two years to get a rough estimate of the ideal posting interval when we receive X submissions. For example, if we recived 100 submission a day, and an approval rate of 50%, then we would post every 15 minutes, which would have around 50 posts per day. This ensures that our delay in posting is not too long (usually a few days is ideal) and we have some buffer time to be able to check our submissions. Using these numbers, the script checks the number of submissions we received over previous days, determines an interval, then schedules after the next queued post, or at 8am if there are no posts in the queue.    
+For the posting side of the API, we already had the formatted post from using our Formatter. The only other parameter required was the posting time. This I created by using the previous data taken over two years to get a rough estimate of the ideal posting interval when we receive X submissions. For example, if we recived 100 submission a day, and an approval rate of 50%, then we would post every 15 minutes, which would have around 50 posts per day. This ensures that our delay in posting is not too long (usually a few days is ideal) and we have some buffer time to be able to check our submissions. Using these numbers, the script checks the number of submissions we received over previous days, determines an interval, then schedules after the next queued post, or at 8am if there are no posts in the queue. 
 
 ### Formatter
 In my third year (after switching to a computing major), the class that contributed the knowledge I needed was my object orientated course. The key concepts I needed was basically the knowledge that documentation exists and how to read it, as well as learning to use the relevant methods that Google sheets provided. Additionally, as I had only programmed using `C` before, Java was a lot closer to Javascript and provided a lot of help in learning the language beyond the equivalent `if`, `for` statements. 
@@ -44,12 +44,15 @@ The current formula only requires one formula to be created for each month as it
 
 #### Graphs 
 
-|![](/images/umll/submissions.png){:class="img-responsive" width="400px"} ||![emptyspace](/images/umll/posting.png){:class="img-responsive" width="400px"} | 
-|*Total Submissions*||*Average Posts per Day*|
+|![](/images/umll/submissions.png){:class="img-responsive" width="95%"} ||![emptyspace](/images/umll/posting.png){:class="img-responsive" width="95%"} | 
+|*Total Submissions*||*Average Posts per Day*| 
 
+<br>
 ### Final 
 
-The final result is that all of the components are combined to schedule posts for the page, at variable intervals dependent on how many submissions we received recently. It has been really helpful in reducing the amount of work that the team has, and allowing us to redirect our time into engaging with our community, such as creating a club. I do however feel that it has lowered the engagement of the admin team with the page, as we now only need one person to read and approve posts which tends to be a more individual job. Perhaps when passing over the duties to a new team, we could encourage them to vote or discuss submissions more. I also have an interest in developing an AI to filter submissions in the future, but it would require a lot more nuance in how it is used, to ensure that it is not unfairly approving or rejecting posts from user biases.  
-<br><br>
-Posts on our page:<br><br>
+The final result is that all of the components are combined to schedule posts for the page, at variable intervals dependent on how many submissions we received recently. It has been really helpful in reducing the amount of work that the team has, and allowing us to redirect our time into engaging with our community, such as creating a club. I do however feel that it has lowered the engagement of the admin team with the page, as we now only need one person to read and approve posts which tends to be a more individual job. Perhaps when passing over the duties to a new team, we could encourage them to vote or discuss submissions more. I also have an interest in developing an AI to filter submissions in the future, but it would require a lot more nuance in how it is used, to ensure that it is not unfairly approving or rejecting posts from user biases. It would be more for a fun project than to be actually used in action. Another idea I had would be looking at previous posts that have been rejected based on content - usually for discrimination or being against Facebook's guidelines, which may help to provide a warning flag to the team. 
+
+The page in action:<br><br>
+<div class="col-10 mx-auto">
 <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUoMLoveLetters&tabs=timeline&width=500&height=300&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="800px" height="300px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+</div>

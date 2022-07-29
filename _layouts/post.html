@@ -3,50 +3,50 @@ layout: default
 ---
 <link rel="stylesheet" href={{ "/css/reset.css" | relative_url }}>  
 <link rel="stylesheet" href={{ "/css/post.css" | relative_url }}>  
-<div>  
-    <div class = "sidebar">
-        {%if page.image%}
-        {% capture path %}{{page.image | prepend: "/.."}}{% endcapture %}
-        <img class= "sideimage" src= "{{path}}" alt="Image">
-        <br><br>
-        {%endif%}
-        {%if page.skills%} 
-        <div style="height: 100%; background-color: pink;">
-            {%for skill in page.skills%}
-                <div class = "skilltag">{{skill}}</div> 
-            {%endfor%}
+
+<div class="container-fluid px-4">
+    <div class="row justify-content-center">
+        <div class="col-8 mx-auto py-5">
+            <h1 class="text-center fs-3 fw-bold">{{page.title}}</h1>
+            {%if page.date%}
+                <p class="text-center" style="color: grey; font-size: smaller;">
+                    {% assign d = page.date | date: "%-d" %}
+                    {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %} 
+                    {{ page.date | date: "%B, %Y" }} 
+                </p>
+            {%endif%}
+            <div class="col-8 mx-auto pt-3 text-center">
+                {%if page.image%}
+                {% capture path %}{{page.image | prepend: "/.."}}{% endcapture %}
+                    <img class= "px-2 img-fluid" src= "{{path}}" alt="project image" style="max-height:50vh">
+                {%endif%}
+                {%if page.skills%} 
+                <div class="my-2 mx-auto">
+                    {%for skill in page.skills%}
+                        <span class="badge rounded-pill border text-dark my-1 ms-1 fw-normal">{{skill}}</span>
+                    {%endfor%}
+                </div>
+                {%endif%} 
+                <br>
+                {%if page.github%}
+                <div class = "mb-3">
+                    <a href = {{page.github}} class="ms-2"><i class="bi bi-github"></i>&nbsp; Github</a>
+                </div>
+                {%endif%}
+                {%if page.website%}
+                <div class = "mb-3">
+                    <a href = {{page.website}} class="ms-2"><i class="bi bi-globe"></i>&nbsp; Website</a>
+                </div>
+                {%endif%}
+                {%for share in page.share%}
+                <div class = "mb-3">
+                    <a href = {{share.link}} class="ms-2"><i class="bi bi-box-arrow-up-right"></i>&nbsp; {{share.title}}</a>
+                </div>
+                {%endfor%}
+            </div>
+            <div class="col-10 mx-auto pt-3 lh-sm content">
+                {{content}}
+            </div>
         </div>
-        <div class = "sidelink">
-        </div>
-        {%endif%}
-        {%if page.github%}
-        <div class = "sidelink">
-            <a href = {{page.github}}><img class="icon" src="/images/icons/github.png"/> Github</a>
-        </div>
-        {%endif%}
-        {%if page.website%}
-        <div class = "sidelink">
-            <a href = {{page.website}}><img class="icon" src="/images/icons/globe.png"/> Website</a>
-        </div>
-        {%endif%}
-        {%for share in page.share%}
-        <div class = "sidelink">
-            <a href = {{share.link}}><img class="icon" src="/images/icons/external.png"/> {{share.title}}</a>
-        </div>
-        {%endfor%}
-    </div>
-    <div class="textbody">
-        <h1>{{page.title}}</h1>
-        {%if page.date%}
-        <p class = "date">
-            {% assign d = page.date | date: "%-d" %}
-            {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %} 
-            {{ page.date | date: "%B, %Y" }} 
-        </p>
-        {%endif%}
-        <br>
-        <hr>
-        <br>
-        {{content}}
     </div>
 </div>

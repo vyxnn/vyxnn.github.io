@@ -1,14 +1,24 @@
 ---
 layout: post
 title: "Fountain"
-tag: project
-image: "/images/fountain.png"
+tag: ['project', 'highlight']
 excerpt: "A web application developed as part of CISSA's Codebrew Hackathon"
-skills: ["React", "Redux", "MongoDB", "HTML", "CSS", "Node.js", "Javascript"]
+skills: ["React", "Redux", "MongoDB", "HTML", "CSS", "Node.js", "Javascript", "Hackathon"]
 github: "https://github.com/McNuggets-of-Codebrew"
 share: [{title: "Runners Up", link: "https://www.facebook.com/events/1196648824126353?post_id=1226048934519675&view=permalink"}]
+image: "/images/fountain-card.png/"
+card_blurb: "   <p> A website developed as part of my university's hackathon (CISSA's Codebrew). 
+                    We were selected to present at the finals, and were runners up in our category. 
+                </p>
+                <p>
+                    This prototype was built using React, Node.js and MongoDB in 48 hours. The idea of the application is that people in need of services (such as food, clothes, books) can ask for help. 
+                    People willing to provide donations could then contact those in need. 
+                    It was inspired by stories of goodwill during the COVID pandemic such as restaurants offering free food to anyone who needed it. 
+                </p>
+"
 ---
-*A web application developed for the 2021 Codebrew Hackathon (Annual Hackathon of Unimelb's Computing Society). We selected the Social Good track and created a website using React and Node.js. The entire Hackathon was completed in 48 hours, and we were selected to present at the finals, where we were the runners up in our category.*
+*A web application developed for the 2021 Codebrew Hackathon (Annual Hackathon of Unimelb's Computing Society). We selected the Social Good track and created a website using React and Node.js. The entire Hackathon was completed in 48 hours, and we were selected to present at the finals, where we were the runners up in our category.* 
+
 
 ### Theme 
 We were in the 'Social Good' track and created an online platform for those in need to connect to those who are able to help. For example, a family struggling could create a post asking for a service, such as food donation or a plumber, and someone who is able to help would respond. Conversely, people can also offer a service such as free/cheap baby sitting, and interested parties can also get in contact. We also incorporated a donation feature in case people couldn't offer a specific service but still wanted to contribute, however that did detract from the main intention we were attempting to convey to judges, as we received a comment that our website was basically GoFundMe, so we emphasised the services a lot more in our final presentation.

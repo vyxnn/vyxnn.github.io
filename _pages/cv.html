@@ -3,47 +3,125 @@ layout: default
 title: CV 
 permalink: /cv/
 ---
-
-<link rel="stylesheet" href={{ "/css/cv.css" | relative_url }}>  
-
-{%comment%}
-https://codepen.io/alvarotrigo/pen/ExwYyNW
-
-https://codepen.io/ygc/pen/AXzVya
-{%endcomment%}
-
-<div class="container" id="timeline">
-    {%for post in site.tags.cv%}
-    <div class="timeline-block">
-        <div class="timeline-img cd-picture"></div>
-        <div class="timeline-content">
-            <div class = "content">
-                <span class="cd-date">           
-                    {% assign d = post.date | date: "%-d" %}
-                    {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %} 
-                    {{ post.date | date: "%B, %Y" }} 
-                </span>
-                <h2> {{post.title}} </h2>
-                <br>
-                <div class = "content-info">
-                    <div class = "subtitle">{{post.subtitle}}</div>
-                    <div class = "date"> 
-                        {{ post.date | date: "%B %Y" }} 
-                        {%if post.end_date%}
-                            {%if post.end_date == "Present"%}
-                            - Present
-                            {%else%}
-                            -
-                            {{ post.end_date | date: "%B %Y" }} 
-                            {%endif%}
-                        {%endif%}
-                    </div>
+<div class="col-12 myBgLightPurple">
+    <div class="mx-auto">
+    <div class="row">    
+        <div class="col-8 mx-auto px-5 bg-white border-bottom pb-4 mt-5">
+            <h2 class="py-4 fs-4">SUMMARY</h2>
+            A Devops Software Engineer, and graduate student studying the Masters of IT (AI) at the University of Melbourne.
+            Interested in Web Development, UI/UX Design, Machine Learning and Artificial Intelligence. 
+        </div>
+        <div class="col-8 mx-auto px-5 bg-white border-bottom">
+            <h2 class="py-4 fs-4">EXPERIENCE</h2>
+            <div class="row mb-3">
+                <div class="col-12 pe-3">
+                    <p class="mb-0"><strong>DEVOPS SOFTWARE ENGINEER | UNIVERSITY OF MELBOURNE</strong>
+                    <br><span class="text-muted">[Jan 2022 - Current]</span></p>
+                    <ul class="ps-3">
+                        <li>Development, enhancement and maintenance of software applications.</li>
+                        <li>Management of MSSQL databases. </li>
+                        <li>Continous Integration and Continuous Deployment (CI/CD) of software. </li>
+                        <li>Security and accessibility improvements to applications.</li>
+                    </ul>
                 </div>
-                <br>
-                <div class = "excerpt">{{post.excerpt}}</div>
-                <div class = "body">{{post.content}}</div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12 pe-3">
+                    <p class="mb-0"><strong>SOFTWARE DEVELOPER INTERN | UNIVERSITY OF MELBOURNE</strong>
+                    <br><span class="text-muted">[March 2021 - Dec 2021]</span></p>
+                    <ul class="ps-3">
+                        <li>Redeveloping websites using the Django framework.</li>
+                        <li>Discussing requirements with product owners.</li>
+                        <li>Restructuring and management of MySQL databases.</li>
+                        <li>UI/UX improvements and simplifications.</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
-    {%endfor%}
+    <div class="row">
+        <div class="col-8 mx-auto px-5 bg-white border-bottom">
+            <h2 class="py-4 fs-4">EDUCATION</h2>
+            <div class="row mb-3">
+                <div class="col-12 pe-3">
+                    <p class="mb-0"><strong>MASTERS OF IT | UNIVERSITY OF MELBOURNE</strong>
+                    <br><span class="text-muted">[2021 - Current]</span></p>
+                    <ul class="ps-3">
+                        <li>Specializing in Artificial Intelligence</li>
+                        <li>91 WAM</li>
+                        <li>Melbourne Engineering and IT Foundation Scholarship (2021)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12 pe-3">
+                    <p class="mb-0"><strong>SCHOOL OF LIBERAL STUDIES | WASEDA UNIVERSITY</strong>
+                    <br><span class="text-muted">[2019 - 2020]</span></p>
+                    <ul class="ps-3">
+                        <li>Exchange semester in Tokyo, Japan.</li>
+                        <li>3.78 GPA</li>
+                        <li>Recipient of the JASSO Scholarship (2019)</li>
+                        <li>Waseda University Dean’s List (2020)</li>
+                    </ul>    
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12 pe-3">
+                    <p class="mb-0"><strong>BACHELORS OF SCIENCE UNIVERSITY OF MELBOURNE</strong>
+                    <br><span class="text-muted">[2018 - 2021]</span></p>
+                    <ul class="ps-3">
+                        <li>Majored in Computing and Information Systems</li>
+                        <li>81.7 WAM</li>
+                        <li>Science Start Up Scholarship (2018)</li>
+                        <li>University House Travelling Scholarship (2019)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-8 mx-auto pb-5 px-5 bg-white mb-5">
+            <h2 class="py-4 fs-4">EXTRACIRRICULAR</h2>
+            <div class="row mb-3">
+                <div class="col-12 pe-3">
+                    <p class="mb-0"><strong>HACKATHON MENTOR | HACKMELBOURNE</strong>
+                    <br><span class="text-muted">[2021]</span></p>
+                    <ul class="ps-3">
+                        <li>Provided help and guidance to hackathon participants based on their projects and prior experience.</li>
+                        <li>Answered participants technical questions and recommendations on technical stacks </li>
+                        <li>Provided feedback on participants ideas and the feasibility</li>
+                        <li>Involved in social events, opening/closing ceremonies and mentor meetings</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12 pe-3">
+                    <p class="mb-0"><strong>SECRETARY | UNIMELB LOVE LETTERS SOCIETY</strong>
+                    <br><span class="text-muted">[2020-2021]</span></p>
+                    <ul class="ps-3">
+                        <li>Email correspondence with committee and members, scheduling meetings and maintaining meeting minutes and logistics.</li>
+                        <li>In charge of location bookings, grant applications and event approvals.</li>
+                        <li>Organizing and leading club meetings and events.</li>
+                        <li>Engaging with members at events and expos, and pitching the club.</li>
+                        <li>Designing event banners, social media marketing and advertising.</li>
+                        <li>Selling, designing and advertising merchandise.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12 pe-3">
+                    <p class="mb-0"><strong>CONSULTANT | GLOBAL TRADE ACCELERATOR</strong>
+                    <br><span class="text-muted">[2020]</span></p>
+                    <ul class="ps-3">
+                        <li>Elected team leader, organized meetings and delegated tasks to the team.</li>
+                        <li>Communication with clients (Method Buzz), clarifying requirements and providing updates on progress.</li>
+                        <li>Undertaking market research based on the client’s needs and providing recommendations to support their product.</li>
+                        <li>Featured on the final presentation and received a high commendation from our client.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>    
 </div>
+

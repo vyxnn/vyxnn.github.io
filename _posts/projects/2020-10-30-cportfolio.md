@@ -1,14 +1,25 @@
 ---
 layout: post
 title: "cPortfolio"
-tag: project
-image: "/images/cportfolio-logo.png"
+tag: ['project', 'highlight']
 excerpt: "Final Year Capstone Project (Learning how to develop a web application)"
 skills: ["React", "Node.js", "Javascript", "MongoDB", "Redux", "Git", "SASS", "CSS", "HTML"]
 github: "https://github.com/The-C-s/C-Portfolio"
 website: "https://cportfolio.herokuapp.com/"
+image: "/images/cportfolio-card.png/"
+card_blurb: "
+    <p>
+        A web application developed as part of my final year capstone project. 
+        As a team of 5 students, we created an e-Portfolio application based on our assigned client's requirements. 
+    </p>
+    <p>
+        This was built using React, Node.js, MongoDB and Heroku. 
+        This application allows users to showcase their work, and create customised pages that can be sent to an employer based on their requirements. 
+        For example, a user may have different and overlapping content for a hospitality and office resume. 
+        Using our application, they can select which content they want displayed, and send a unique link to different employers. 
+    </p>
+"
 ---  
-
 *A web application developed for my final year capstone project at the University of Melbourne. This project involved working in a team of 5 students to develop an e-Portfolio application based off our assigned client's requirements. The intent of this application was to provide a customised platform for users to showcase their work, and allowed them to send a personalized page to prospective employers.* 
 
 ### Full Technology Stack 
@@ -41,26 +52,26 @@ The process of writing custom APIs was very tedious. Using a Mongo Database, Mon
 Additionally, we also had to set up image and file storage, as it could not be stored via Heroku (which rebuilds everytime the website needs to be up). We used Cloudinary to store images and PDFs, but again had to set up where it would be stored, relevant metadata or naming conventions, and how to serve a file. As the post function also doesn't encompass both files and data, we also had to incorporate new APIs to save various fields, such as a profile image, then ensure that it runs atomically. While it did take a lot of dedicated work to set up, once we managed to get everything working, it was relatively stable and didn't require high maintenance unlike the Frontend. 
 
 ### Design 
-I only previously had very traditional art experience, and very little knowledge of web design and the capabilities of CSS, so while I was excited to design a website for the first time, I would definitely make a lot of changes with better knowledge of UI/UX concepts, and with the capabilities of CSS and HTML in mind. While CSS can theoretically create anything, some designs such as layering multiple `<div>` elements on top of each other are very impractical, and I would also need to consider how the user interacts with elements, and how different browsers may display content. The CSS in this project was not great, and used a lot of 'absolute' elements or pixels, which meant that different zooms, browsers and environment variables impacted the final look of the site. Another shortfall was that I used a lot of different colours for this project, whereas keeping it more simple may have improved the professional look of it. <br><br>
+I only previously had very traditional art experience, and very little knowledge of web design and the capabilities of CSS, so while I was excited to design a website for the first time, I would definitely make a lot of changes with better knowledge of UI/UX concepts, and with the capabilities of CSS and HTML in mind. While CSS can theoretically create anything, some designs such as layering multiple `<div>` elements on top of each other are very impractical, and I would also need to consider how the user interacts with elements, and how different browsers may display content. The CSS in this project was not great, and used a lot of 'absolute' elements or pixels, which meant that different zooms, browsers and environment variables impacted the final look of the site. Another shortfall was that I used a lot of different colours for this project, whereas keeping it more simple may have improved the professional look of it.
 
-There was also a cool sidebar that a member of my team created [here](https://cportfolio.herokuapp.com/shared/FEDWdPSG) that I really liked. On this page though, you can see some of the dodgy CSS coming into play. I would like to create a similar but larger scale page with a timeline for my projects or CV in the future. <br><br>
+There was also a cool sidebar that a member of my team created [here](https://cportfolio.herokuapp.com/shared/FEDWdPSG) that I really liked. On this page though, you can see some of the dodgy CSS coming into play. I would like to create a similar but larger scale page with a timeline for my projects or CV in the future. 
 
-|![](/images/cportfolio/cportfolio.jpg){:class="img-responsive" width="700px"} |
+|![](/images/cportfolio/cportfolio.jpg){:class="img-responsive" width="95%"} |
 | *The dashboard with posts* |  
 
 <br> 
 
-|![](/images/cportfolio/content.PNG){:class="img-responsive" width="700px"} |
+|![](/images/cportfolio/content.PNG){:class="img-responsive" width="95%"} |
 | *Adding new content* | 
 
 <br>
 
-|![](/images/cportfolio/profile.PNG){:class="img-responsive" width="700px"} |
+|![](/images/cportfolio/profile.PNG){:class="img-responsive" width="95%"} |
 | *Profile page* | 
 
 <br>
 
 ### Other 
-Overall, this project was my first taste of web development, and actually one of the reasons I developed an interest in it. It opened up my eyes to how versatile technology is, and appealed to my sense of creativity. I really think its amazing how I can just design a website and be able to have it on the internet. <br><br>
+Overall, this project was my first taste of web development, and actually one of the reasons I developed an interest in it. It opened up my eyes to how versatile technology is, and appealed to my sense of creativity. I really think its amazing how I can just design a website and be able to have it on the internet.
 
-The project was also really fun to work on, though stressful at times. I had an amazing team, supervisor and coordinator for this subject, and aside from the practical skills of developing a web application, we also emulated what the process of developing software would be like in the industry. Looking back on this time, it really help set me up with skills for the future, and was the stepping stone in getting me involved in hackathons and an internship. I also really enjoyed all the time I dedicated to this subject, and how much fun I had with my team while developing this, especially the chaos at the end where we had to make sure everything was ready for a demo. The lectures were unconventional in the sense that we didn't officially learn any languages or frameworks, but had a lot of interesting speakers talking about industry life and discussing topics such as ethics (which I really love). <br><br>
+The project was also really fun to work on, though stressful at times. I had an amazing team, supervisor and coordinator for this subject, and aside from the practical skills of developing a web application, we also emulated what the process of developing software would be like in the industry. Looking back on this time, it really help set me up with skills for the future, and was the stepping stone in getting me involved in hackathons and an internship. I also really enjoyed all the time I dedicated to this subject, and how much fun I had with my team while developing this, especially the chaos at the end where we had to make sure everything was ready for a demo. The lectures were unconventional in the sense that we didn't officially learn any languages or frameworks, but had a lot of interesting speakers talking about industry life and discussing topics such as ethics (which I really love).

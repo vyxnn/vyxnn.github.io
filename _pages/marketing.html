@@ -1,0 +1,27 @@
+---
+layout: default
+title: Interests 
+permalink: /marketing/
+---
+<link rel="stylesheet" href={{ "/css/portfolio.css" | relative_url }}>  
+<script src="../scripts/portfolio.js"></script>
+
+<div class="portbody">
+    {% for post in site.tags.marketing %}
+    <div id="modal-{{forloop.index}}" class="modal">
+        <div class="modal-content">
+            <a href='#' class="close" onclick='closeclick(event, "modal-{{forloop.index}}")'>&times;</a>
+            {{post.content}}
+        </div>
+    </div>
+
+    <a href="#" onclick='modalclick(event, "modal-{{forloop.index}}")'>        
+    <div class="portpost">
+        <div>
+            <img class= "displayimage" src= "{{post.image}}" alt="Image">
+        </div>
+    </div>
+    </a>
+    {% endfor %}
+</div>
+  

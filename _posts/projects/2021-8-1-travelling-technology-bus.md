@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Travelling Technology Bus"
-tag: project
+tag: ['project', 'highlight']
+image: "/images/ttb.jpg"
 excerpt: "An application developed for my Software Process and Management project."
+github: "https://github.com/vyxnn/travelling-technology-bus"
 skills: ["Django", "MySQL", "Python", "HTML", "CSS"]
 c1: ["https://drive.google.com/uc?export=view&id=1brlmq5u31pb6gQwYcqAquhe0DOBHu83x", 
 "https://drive.google.com/uc?export=view&id=1LjDzRVJhVeXivXmk6vLx-WMbR1uEvoEJ", 
@@ -14,8 +16,17 @@ c1: ["https://drive.google.com/uc?export=view&id=1brlmq5u31pb6gQwYcqAquhe0DOBHu8
 "https://drive.google.com/uc?export=view&id=1ZQiwKcBKMIw_Tu3qAfR2lFmBEGOpeJhJ", 
 "https://drive.google.com/uc?export=view&id=16dObbOE2DoObspQtORHHJ-EIDZN116GF", 
 ]
+image: "/images/ttb-card.png/"
+card_blurb: "                                
+            <p> A website developed for my Software Processes and Management project. 
+                It provides an interface for schools to book and cancel appointments, and administrators to schedule and confirm bookings. 
+            </p>
+            <p>
+                This application uses Django and SQLite.  
+            </p>
+"
 ---
-*A website developed as part of my Software Process and Management subject (SWEN90016). The physical development of the application was only worth 2 points, with a heavy focus on documentation and following a Software Development Life Cycle (SDLC). Django was used to minimize the programming resources required, and due to most members having experience in Django, Python or CSS/HTML components.*
+*A website developed as part of my Software Process and Management subject (SWEN90016). The physical development of the application was only worth 2/30 points, the project instead had a heavy emphasis on documentation and following a Software Development Life Cycle (SDLC). Django was used to minimize the programming resources required, as most members having experience in Django, Python or CSS/HTML components.*
 
 ### Case Study 
 The case study was of a client who wanted to create a booking website for schools to 'schedule' the Travelling Technology Bus (TTB) to visit them. The premise was very similar to 'Healthy Harold' which used to visit primary schools, but the focus was on educating primary and high school students about STEM and it's applications. The main processes that were required were a login for schools and administrators, school registration, admin scheduling, and confirmation emails for each action. 

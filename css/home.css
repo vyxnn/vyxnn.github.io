@@ -72,3 +72,7 @@
     font-family: 'DINRegular';
     object-fit: contain; 
 }
+
+.myPurpleBg{ 
+    background-color: #72a5f2;
+}

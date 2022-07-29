@@ -13,53 +13,67 @@ body{
     min-width: 300px; 
     margin: 0 auto; 
     height: auto; 
-}
-
-.topnav{
-    width: auto; 
-    background-color: black; 
-    text-align: right;
-    height: 12vh; 
-}
-
-.topnav .title{ 
-    font-family: 'DINRegular'; 
-    font-size: xx-large;
-    text-decoration:none; 
-    text-align: left; 
-    color: white;
-    padding-top: 1%; 
-    padding-right: 1%; 
-    padding-left: 2%; 
-    padding-bottom: 0%; 
-    max-height: 10px; 
-}
-
-.topnav .a .home, .profile, .projects, .cv, .art, .interests, .home
-{ 
-    font-family: 'DINRegular'; 
-    text-align: right;
-    font-size: small; 
-    padding-right: 1%; 
-    text-decoration:none; 
-    padding-top: -20%; 
-    color: white !important; 
-}
-
-/*fix this*/
-.topnav .a .home:active{
-    color: white !important; 
-}
-
-.topnav .a:link{
-    color: white !important; 
-}
-
-.topnav .a:hover{
-    color:white !important; 
-}
-
-.topnav a:visited{
-    color: white !important;
+    font-family: 'DINRegular';
 }
   
+.h-card{ 
+    color: black; 
+    position: relative; 
+    border-radius: 0 !important;
+    border: none !important; 
+    height: 60vh; 
+}
+
+.h-card img{ 
+    height: 60vh; 
+    object-fit: contain;
+    border-radius: 0 !important;
+    border: none !important; 
+}
+
+
+.p-card{ 
+    color: black; 
+    position: relative; 
+    border-radius: 0 !important;
+    border: none !important; 
+}
+
+.p-card img{ 
+    object-fit: contain;
+    border-radius: 0 !important;
+    border: none !important; 
+}
+
+.overlay{ 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto; 
+    width: 100%;
+    opacity: 0;
+    background: #dcdbfe;
+    color: #3e397a;
+    font-size: normal;
+    overflow: auto;
+    text-overflow: ellipsis;
+}
+
+
+.overlay:hover {
+    opacity: 0.9 !important;
+}
+
+.myBgLightGray{
+    background-color: lightgray; 
+}
+
+.myBgLightPurple{ 
+    background-color: #ebebfb; 
+}
+
+.content h3{ 
+    padding-top: 0.75em !important; 
+}
