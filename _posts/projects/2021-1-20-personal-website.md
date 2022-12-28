@@ -34,7 +34,7 @@ After coming back to this website (with even more CSS fixes), I found out that J
 ### Learning how to use Markdown
 *Using a lot of help from this [source](https://www.markdownguide.org/basic-syntax/).* 
 
-Initially I wanted to go with ```<html>``` posts instead of markdown, as I don't really like the concept of having the same design for each page, and ```<html>``` would give me the freedom to design every page as I want it. Unfortunately that is incredibly time consuming, and Jekyll makes markdown very easy to use regardless so I may as well use it. Admittedly after the pain of using latex to write all my notes last year, markdown is comparatively much easier to use, and I realised I could still incoporate ```<html>``` elements if necessary. 
+Initially I wanted to go with ```<html>``` posts instead of markdown, as I don't really like the concept of having the same design for each page, and ```<html>``` would give me the freedom to design every page as I want it. Unfortunately that is incredibly time consuming, and Jekyll makes markdown very easy to use regardless so I may as well use it. Admittedly after the pain of using latex to write all my notes last year, markdown is comparatively much easier to use, and I realised I could still incorporate ```<html>``` elements if necessary. 
 
 Aside from all the syntax of markdown, there are a few unusual points and workarounds I noticed when using it. 
 - **Layout of pictures**   
@@ -59,7 +59,7 @@ My only complaint about Bootstrap that it can be a bit plain for UI/UX designs. 
 ### To Do 
 - [x] Update website design 
 - [ ] Update design for marketing and art sections to use bootstrap 
-- [ ] Add new projects 
+- [x] Add new projects 
 - [ ] Add projects to CV section 
 - [ ] Clean up code (remove unused images and css/js files)
 - [ ] Update carousel used in blog posts to use bootstrap 

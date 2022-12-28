@@ -26,13 +26,13 @@ card_blurb: "
             </p>
 "
 ---
-*A website developed as part of my Software Process and Management subject (SWEN90016). The physical development of the application was only worth 2/30 points, the project instead had a heavy emphasis on documentation and following a Software Development Life Cycle (SDLC). Django was used to minimize the programming resources required, as most members having experience in Django, Python or CSS/HTML components.*
+*A website developed as part of my Software Process and Management subject (SWEN90016). The physical development of the application was only worth 2/30 points, the project instead had a heavy emphasis on documentation and following a Software Development Life Cycle (SDLC). Django was used to minimize the programming resources required, as most members having experience in Django, Python or CSS/HTML components. We received a H1 for this project.*
 
 ### Case Study 
 The case study was of a client who wanted to create a booking website for schools to 'schedule' the Travelling Technology Bus (TTB) to visit them. The premise was very similar to 'Healthy Harold' which used to visit primary schools, but the focus was on educating primary and high school students about STEM and it's applications. The main processes that were required were a login for schools and administrators, school registration, admin scheduling, and confirmation emails for each action. 
 
 ### Development 
-The development process was relatively straightforward, as one of the developers experienced with Django, I was able to use a lot of Django's inbuilt functionality like setting up forms using models, and it's own login and authentication system quite easily. Another team member also worked on the email system which I've never used before, however also turned out to be simplier than expected as it used a python package to send mail. While there were 3 different people working on the code, aside from integrating it all together, there were very few issues during this process. The main pages of the website can be seen below. 
+The development process was relatively straightforward, as one of the developers experienced with Django, I was able to use a lot of Django's inbuilt functionality like setting up forms using models, and it's own login and authentication system quite easily. Another team member also worked on the email system which I've never used before, however also turned out to be simpler than expected as it used a python package to send mail. While there were 3 different people working on the code, aside from integrating it all together, there were very few issues during this process. The main pages of the website can be seen below. 
 
 {% include carousel.html height="50" unit="%" duration="7" images=page.c1 number="1"%}
 

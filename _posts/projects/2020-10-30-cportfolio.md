@@ -15,12 +15,11 @@ card_blurb: "
     <p>
         This was built using React, Node.js, MongoDB and Heroku. 
         This application allows users to showcase their work, and create customised pages that can be sent to an employer based on their requirements. 
-        For example, a user may have different and overlapping content for a hospitality and office resume. 
-        Using our application, they can select which content they want displayed, and send a unique link to different employers. 
+        Using our application, they can select which content they want displayed, and send a unique link to different employers depending on context. 
     </p>
 "
 ---  
-*A web application developed for my final year capstone project at the University of Melbourne. This project involved working in a team of 5 students to develop an e-Portfolio application based off our assigned client's requirements. The intent of this application was to provide a customised platform for users to showcase their work, and allowed them to send a personalized page to prospective employers.* 
+*A web application developed for my final year capstone project at the University of Melbourne. This project involved working in a team of 5 students to develop an e-Portfolio application based off our assigned client's requirements. The intent of this application was to provide a customised platform for users to showcase their work, and allowed them to send a personalized page to prospective employers. My individual mark for this subject was a 90.* 
 
 ### Full Technology Stack 
 

@@ -1,2 +1,5 @@
 name: Victoria Deng 
 include: [_pages]
+plugins: 
+  - jekyll-sitemap
+url: "https://vyxnn.github.io" 

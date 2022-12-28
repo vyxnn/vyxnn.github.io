@@ -1,4 +1,4 @@
-I")<p>My goals for this was mainly to improve my CSS skills from the <a href="/2020/10/30/cportfolio.html">cPortfolio</a> Project. Also had the added bonus of being able to design something new, learning more html, markdown and how to create a static website in preparation for my next project. This is mainly for recording my own progress.</p>
+I")<p>My goals for this was mainly to improve my CSS skills from the <a href="/2020/10/30/cportfolio.html">cPortfolio</a> Project. Also had the added bonus of being able to design something new, learning more html, markdown and how to create a static website in preparation for my next project. This is mainly for recording my own progress.</p>
 
 <h3 id="zooming">Zooming</h3>
 
@@ -33,7 +33,7 @@
 <h3 id="learning-how-to-use-markdown">Learning how to use Markdown</h3>
 <p><em>Using a lot of help from this <a href="https://www.markdownguide.org/basic-syntax/">source</a>.</em></p>
 
-<p>Initially I wanted to go with <code class="language-plaintext highlighter-rouge">&lt;html&gt;</code> posts instead of markdown, as I don’t really like the concept of having the same design for each page, and <code class="language-plaintext highlighter-rouge">&lt;html&gt;</code> would give me the freedom to design every page as I want it. Unfortunately that is incredibly time consuming, and Jekyll makes markdown very easy to use regardless so I may as well use it. Admittedly after the pain of using latex to write all my notes last year, markdown is comparatively much easier to use, and I realised I could still incoporate <code class="language-plaintext highlighter-rouge">&lt;html&gt;</code> elements if necessary.</p>
+<p>Initially I wanted to go with <code class="language-plaintext highlighter-rouge">&lt;html&gt;</code> posts instead of markdown, as I don’t really like the concept of having the same design for each page, and <code class="language-plaintext highlighter-rouge">&lt;html&gt;</code> would give me the freedom to design every page as I want it. Unfortunately that is incredibly time consuming, and Jekyll makes markdown very easy to use regardless so I may as well use it. Admittedly after the pain of using latex to write all my notes last year, markdown is comparatively much easier to use, and I realised I could still incorporate <code class="language-plaintext highlighter-rouge">&lt;html&gt;</code> elements if necessary.</p>
 
 <p>Aside from all the syntax of markdown, there are a few unusual points and workarounds I noticed when using it.</p>
 <ul>
@@ -67,7 +67,7 @@
 <ul class="task-list">
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Update website design</li>
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Update design for marketing and art sections to use bootstrap</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Add new projects</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Add new projects</li>
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Add projects to CV section</li>
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Clean up code (remove unused images and css/js files)</li>
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Update carousel used in blog posts to use bootstrap</li>
