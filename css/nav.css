@@ -2,7 +2,9 @@
     font-family: 'DINRegular';
     src: url("../fonts/DINRegular.ttf") format("truetype");
 } 
-
+html{
+    font-size: 16px;
+}
 head{ 
     background-color: black;
 }

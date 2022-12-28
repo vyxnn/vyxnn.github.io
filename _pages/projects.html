@@ -4,12 +4,12 @@ title: Projects
 permalink: /projects/
 ---
 <div class="container-fluid">
-    <div class="col-10 mx-auto my-4">
+    <div class="col-md-10 mx-auto my-4">
         <div class="row mt-0">
             {% for post in site.tags.project %}
-            <div class="col-lg-4 col-sm-12 mt-3">
+            <div class="col-md-4 mt-3">
                 <a class="text-decoration-none" href="{{post.url}}">
-                    <div class="card p-card mb-4">
+                    <div class="card p-card mb-4 fs-6">
                         <img src="{{post.image}}" class="card-img" alt="{{post.title}}">
                         <div class="overlay p-4 text-center align-self-center d-block">
                             <h5 class="d-block align-middle"><strong>{{post.title}}</strong></h5>
@@ -28,33 +28,3 @@ permalink: /projects/
         </div>
     </div>
 </div>
-<!-- <link rel="stylesheet" href={{ "/css/project.css" | relative_url }}>  
-<script src="../scripts/project.js"></script> -->
-    
-<!-- <div class="myBgLightGray p-3">
-    <div class="projectbody">
-        {% for post in site.tags.project %}
-        <a href="{{ post.url }}">
-        <div class="post">
-            </br>
-            {{ post.title }}
-            <div class = "excerpt">
-                </br>
-                {{post.excerpt}}
-                <br><br>
-                {% assign d = post.date | date: "%-d" %}
-                {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %} 
-                {{ post.date | date: "%B, %Y" }} 
-            </div>
-            </br>
-            <div>
-                {%if post.image%}
-                {% capture path %}{{post.image | prepend: "/.."}}{% endcapture %}
-                <img class= "imgpreview" src= "{{path}}" alt="Image">
-                {%endif%}
-            </div>
-        </div>
-        </a>
-        {% endfor %}
-    </div>
-</div> -->

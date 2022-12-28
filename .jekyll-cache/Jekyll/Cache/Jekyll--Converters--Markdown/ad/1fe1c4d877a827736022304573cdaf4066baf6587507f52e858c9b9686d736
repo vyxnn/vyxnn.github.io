@@ -1,4 +1,4 @@
-I"r<p><em>An application developed for the University of Melbourne’s Policy Team by the DevOps Team. We won the ‘OneTeam’ award for this application, and received interest from outside parties such as the University of Sydney and ANZ regarding the new Policy Library.</em></p>
+I"�<p><em>An application developed for the University of Melbourne’s Policy Team by the DevOps Team. We won the ‘OneTeam’ award for this application, and received interest from outside parties such as the University of Sydney and ANZ regarding the new Policy Library.</em></p>
 
 <h3 id="devops-process">DevOps Process</h3>
 <p>The process we followed was based on an Agile Development process, with recurring meetings with the business (Policy Team) for requirements, and a repeated development process where we build features and adjust according to feedback from tests and users.</p>
@@ -49,58 +49,8 @@
 <h3 id="uiux">UI/UX</h3>
 <p>In previous projects I usually had university branded components to use, so I never had much creative freedom for the UI aside from the placement of elements. In this library, I had a lot more freedom as we used Bootstrap for our components. For the formatting of the site, I retained a similar placement of information but with more updated styling. I also focused on improving usability of the library to be compatible with mobile.</p>
 
-<table>
-  <tbody>
-    <tr>
-      <td><img src="https://drive.google.com/uc?export=view&amp;id=1lRnHsZ6Ozxdglk0m4URfq3f424NLHcfP" alt="" class="img-thumbnail" /></td>
-      <td> </td>
-      <td> </td>
-      <td><img src="https://drive.google.com/uc?export=view&amp;id=1vzy3eAhO3WmnVVr32m5VFUc7c6P0CL4z" alt="" class="img-thumbnail" /></td>
-    </tr>
-    <tr>
-      <td><em>Old Policy Library</em></td>
-      <td> </td>
-      <td> </td>
-      <td><em>New Policy Library</em></td>
-    </tr>
-  </tbody>
-</table>
+<p><img src="https://drive.google.com/uc?export=view&amp;id=1hKh3kfdsLKTBmBoqrY2c5gDhuueEQ-Fz" alt="" class="img-responsive" width="100%" />
+<br /></p>
 
-<p><br /></p>
-
-<table>
-  <tbody>
-    <tr>
-      <td><img src="https://drive.google.com/uc?export=view&amp;id=1vtpnr4u7Zjc2rnvI2BXG9MucwMa8wYNR" alt="" class="img-thumbnail" /></td>
-      <td> </td>
-      <td> </td>
-      <td><img src="https://drive.google.com/uc?export=view&amp;id=1Mk1s902_EQUGpBlspTi9B8YT9b6nLQwq" alt="" class="img-thumbnail" /></td>
-      <td> </td>
-      <td> </td>
-      <td><img src="https://drive.google.com/uc?export=view&amp;id=1SyJmcgJUNWN-twcDXpBJ4rbFoTVEOBhT" alt="" class="img-thumbnail" /></td>
-    </tr>
-    <tr>
-      <td><em>Old Mobile Format</em></td>
-      <td> </td>
-      <td> </td>
-      <td><em>New Mobile Format</em></td>
-      <td> </td>
-      <td> </td>
-      <td><em>Mobile Policy</em></td>
-    </tr>
-  </tbody>
-</table>
-
-<p><br /></p>
-
-<table>
-  <tbody>
-    <tr>
-      <td><img src="https://drive.google.com/uc?export=view&amp;id=1xy7b04f_NYz7rNXZBcMOIFSOCn8k1yNx" alt="" class="img-thumbnail" /></td>
-    </tr>
-    <tr>
-      <td><em>Example Policy</em></td>
-    </tr>
-  </tbody>
-</table>
+<p><img src="https://drive.google.com/uc?export=view&amp;id=1ttE0003Bw0BXTEYqpn6UhXT-pk-rcI7C" alt="" class="img-responsive" width="100%" /></p>
 :ET

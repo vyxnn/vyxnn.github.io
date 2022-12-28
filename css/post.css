@@ -1,78 +1,3 @@
-@font-face{
-    font-family: 'DINRegular';
-    src: url("../fonts/DINRegular.ttf") format("truetype");
-} 
-
-.date{ 
-    font-size: small;
-    color: grey; 
-}
-
-.icon{ 
-    width: 15px;
-    height: 15px; 
-    margin-top: auto; 
-    margin-bottom: auto; 
-}
-
-.sidebar{
-    width: 23%; 
-    padding: 2%; 
-    float: left; 
-    font-family: 'DINRegular';
-    font-size: small;
-    height: auto; 
-}
-
-.sideimage{
-    width: 100%; 
-}
-
-.sidelink{ 
-    display: table;
-    clear: both;
-    padding: 2%;
-    font-size: large; 
-    color: black;
-    margin-bottom: 1%;
-}
-
-.sidelink a:link, .sidelink a:hover, .sidelink a:focus, .sidelink a:visited{ 
-    color: black; 
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.skilltag{ 
-    float:left;
-    font-family: 'DINRegular';
-    font-size: small;
-    background-color: lightgray;
-    padding-top: 2%;     
-    padding-bottom: 2%; 
-    padding-left: 3%;
-    padding-right: 3%;
-    border-style: solid; 
-    border-radius: 25px; 
-    margin-right: 1%; 
-    margin-top: 2%;
-}
-
-.text{ 
-    font-family: 'DINRegular';
-    padding-top: 1% !important; 
-    padding: 10%; 
-}
-
-.textbody{ 
-    font-family: 'DINRegular';
-    float: left;
-    width: 65%;  
-    padding-top: 0% !important; 
-    padding-left: 3% !important; 
-    padding: 2%; 
-}
-
 a:link, 
 a:hover, 
 a:focus{ 
@@ -83,4 +8,5 @@ a:focus{
 a:visited{
     color:#656cba; 
 }
+
 
