@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!-- default theming-->
+<html lang="en">
+    <link rel="stylesheet" href=/css/reset.css>  
+    <link rel="stylesheet" href=/css/nav.css>
+    <head>
+        <title>Victoria Deng</title>
+        <meta name="google-site-verification" content="rBsnWWId49kVIqTkJuXxfn0vWivuLT0IS8N5cXi9DWo" />
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>    
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>    
+        <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+        <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+        <ul class="nav justify-content-end sticky-top bg-dark py-4 px-3">
+            <a class="navbar-brand text-white me-auto mx-3">VICTORIA DENG</a>      
+            <li class="nav-item">
+                <a class="nav-link text-white" href="/">home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="/projects">projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="/cv">cv</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  others
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="/art">art</a></li>
+                  <li><a class="dropdown-item" href="/marketing">marketing</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white px-2" href="https://github.com/vyxnn" title="github"><i class="bi bi-github text-white py-3"></i></a>
+            </li>
+        </ul>
+    </head>
+    <main>
+        <body>
+            <link rel="stylesheet" href=/css/reset.css>  
+<link rel="stylesheet" href=/css/post.css>  
+
+<div class="container-fluid px-4">
+    <div class="row justify-content-center">
+        <div class="col-8 mx-auto py-5">
+            <h1 class="text-center fs-3 fw-bold">Wilsons Promontory Virtual Herbarium</h1>
+            
+                <p class="text-center" style="color: grey; font-size: smaller;">
+                    
+                    1st 
+                    September, 2021 
+                </p>
+            
+            <div class="col-8 mx-auto pt-3 text-center">
+                
+                
+                    <img class= "px-2 img-fluid" src= "/../images/herbarium-card.png" alt="Wilsons Promontory Virtual Herbarium card" style="max-height:50vh">
+                
+                 
+                <div class="my-2 mx-auto">
+                    
+                        <span class="badge rounded-pill border text-dark my-1 ms-1 fw-normal">Django</span>
+                    
+                        <span class="badge rounded-pill border text-dark my-1 ms-1 fw-normal">MySQL</span>
+                    
+                        <span class="badge rounded-pill border text-dark my-1 ms-1 fw-normal">Python</span>
+                    
+                </div>
+                 
+                <br>
+                
+                
+                <div class = "mb-3">
+                    <a href = https://wpvherbarium.science.unimelb.edu.au/ class="ms-2"><i class="bi bi-globe"></i>&nbsp; Website</a>
+                </div>
+                
+                
+            </div>
+            <div class="col-10 mx-auto pt-3 lh-sm content">
+                <p><em>A website I built with another intern and my supervisor for the School of Biosciences at the University of Melbourne. It was my first time using Django and Python, as well as my first experience in being a software developer in a professional setting.</em></p>
+
+<h3 id="learning-django">Learning Django</h3>
+<p>Learning Django turned out to be easier than learning React. While I haven’t had much prior experience in python, it was relatively easy to pick up. The main benefit of using Django however, was all the features that came with it. Compared to React, where you had to write your own APIs, manage payloads between the client and database, and have complex methods of passing information through routes, Django had a lot of these in built into the framework. Additionally, it comes inbuilt with its own authentication system and ORM, which is very beginner friendly as it handles a lot of security issues.</p>
+
+<h3 id="django-models">Django Models</h3>
+<p>Django models is what we used to manage a database. While usually it is used to create new tables in an SQL database, we had to use an existing database structure. Django provides a command that can read the existing structure and convert it into model code. This does however need to be checked, as sometimes they may read a field differently (eg. <code class="language-plaintext highlighter-rouge">char</code> instead of <code class="language-plaintext highlighter-rouge">int</code>), but these tend to be easy fixes. The setup of these models are very easy, and are in a class based format, where you define the name of the model class, and all the fields. The following example defines a table <code class="language-plaintext highlighter-rouge">Flora</code> with fields <code class="language-plaintext highlighter-rouge">name</code> and <code class="language-plaintext highlighter-rouge">genus</code>. Django automatically handles the creation of this table in an SQL database, as well as ids and foreign key connections.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Flora(models.Model): 
+    name = models.CharField(max_length=30)
+    genus = models.ForeignKey(Genus, on_delete=models.CASCADE)
+</code></pre></div></div>
+
+<h3 id="django-queries">Django Queries</h3>
+<p>Django queries utilises the model structure to perform what SQL query language does. Rather than writing out explicit <code class="language-plaintext highlighter-rouge">SELECT</code> statements, which may contain nested queries or complex joins, Django simplifies this. While the following examples are simple, it makes querying a database a lot easier. We can also access the fields as attributes in objects, or convert it to a list for easier handling. There may be some limitations in what Django filters can provide, so raw SQL may be required sometimes, but is not usually encouraged.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>flora_starts_with_b = Flora.objects.filter(name__startswith="B").order_by('name')
+daisy = Flora.objects.get(name="Daisy")
+</code></pre></div></div>
+
+<h3 id="django-forms">Django Forms</h3>
+<p>Django forms also utilise the model structure to automatically create a form. If we want to add a new object to a database or update it, we can use very generic code to set up a form and save that data. Django also performs it’s own form validation and cleaning as well, for example it will know if a required field is empty and provide a warning or error on submit. Things like email or password validation is also in-built into Django. Usually the example code is enough to get a working form, but we can add further customisation such as additional fields, custom form validation logic or widget displays.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class FloraForm(ModelForm):
+    class Meta: 
+    model = Flora
+    fields = ['name', 'genus']
+</code></pre></div></div>
+
+<h3 id="django-views">Django Views</h3>
+<p>Django views is where most of the client/server logic is made. We can map a url to a view (using <code class="language-plaintext highlighter-rouge">urls.py</code>) and then perform the logic that we want. For example if we want to display all <code class="language-plaintext highlighter-rouge">Flora</code>, we can use the view to perform filtering logic. We then pass all the information into a Django Template, which does the displaying for us via html. Django views is also where we may handle form saving, and changes to a database.</p>
+
+<h3 id="django-template">Django Template</h3>
+<p>Django templates take information that is passed in from a view, and displays it. This was the most familiar section to me, as it uses <code class="language-plaintext highlighter-rouge">html</code> and <code class="language-plaintext highlighter-rouge">css</code>. There is a specific template tag language that Django uses, that I wasn’t particularly familiar with, but was also pretty easy to pick up. It provides a lot of in built functionality like converting a date into a format, or capitalising strings. This would be very similar among most front ends of a website, as most of the logic is centered around display, and anything more complex than that is usually done in a view.</p>
+
+<h3 id="other">Other</h3>
+<p>Throughout my internship, I learnt a lot about web development and how to build a Django Application. Additionally I also picked up a lot of skills such as using a linux OS, and a virtual machine to deploy the site. There was also a lot of liasing between our client and project, where we often had to confirm features or requirements.</p>
+
+<p>The internship program also had a lot of interesting events and training workshops, to help our integration into the workforce and meet other interns in different areas. While not everyone was in an IT or Software development stream, it was definitely interesting learning about other people and what they do. Some workshops were also centered around marketing ourselves and how to make the most of an internship. Unfortunately due to COVID lockdowns, I did have limited time in the office, but it was great to work with my team and I definitely value everything that I have learnt from working here.</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+        </body>
+    </main>
+</html>
