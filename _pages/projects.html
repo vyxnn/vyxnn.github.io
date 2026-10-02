@@ -3,8 +3,31 @@ layout: default
 title: Projects 
 permalink: /projects/
 ---
+
+{% assign tagArray = '' | split: ',' %}
+
+{% for post in site.tags.project%}
+  {% for tag in post.skills %}
+      {% assign tagArray = tagArray | push: tag %}
+  {% endfor %}
+{%endfor %}
+
+{% assign uniqueTags = tagArray | uniq | sort%}
+
+
 <div class="container-fluid">
-    <div class="col-md-10 mx-auto my-4">
+    <div class="col-md-10 mx-auto mt-3">
+        <select class="selectpicker" data-live-search="true" title='Filter By'>
+            <!-- <option selected disabled>
+                <i class="bi bi-filter fs-5"></i> Filter by
+            </option> -->
+            {%for t in uniqueTags%}
+            <option>{{t}}</option>
+            {%endfor%}
+        </select>
+              
+    </div>
+    <div class="col-md-10 mx-auto mb-4">
         <div class="row mt-0">
             {% for post in site.tags.project %}
             <div class="col-md-4 mt-3">

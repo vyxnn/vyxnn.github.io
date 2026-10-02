@@ -13,7 +13,7 @@ image: "/images/umll-card.png"
 ### About 
 While I do have many interesting stories of being a admin of this page, writing code for the everyday functioning of the page was one of the reasons I was really interested in computing and other technological issues such as ethics, particularly regarding the impact on social media on our lives, as well as how technology can be efficiently utilised without detracting from human experiences. 
 <br>
-From a technological point of view, I used this page to test out a lot of the skills I developed over my studies at university. Essentially I started with only knowledge of excel formulas, which gave the submission and posting statistics for the page (due to personal curiousity). As I progress through uni, I learnt more programming concepts, from for loops and if statements that brought me a spam filter, reading documentation and object oriented concepts which brought a formatter, and finally the knowledge of APIs which finalised the scheduler. 
+From a technological point of view, I used this page to test out a lot of the skills I developed over my studies at university. Essentially I started with only knowledge of excel formulas, which gave the submission and posting statistics for the page (due to personal curiousity). As I progressed through uni, I learnt more programming concepts, from for loops and if statements that brought me a spam filter, reading documentation and object oriented concepts which brought a formatter, and finally the knowledge of APIs which finalised the automated scheduler. 
 <br>
 
 ### Scheduler
@@ -50,7 +50,11 @@ The current formula only requires one formula to be created for each month as it
 <br>
 ### Final 
 
-The final result is that all of the components are combined to schedule posts for the page, at variable intervals dependent on how many submissions we received recently. It has been really helpful in reducing the amount of work that the team has, and allowing us to redirect our time into engaging with our community, such as creating a club. I do however feel that it has lowered the engagement of the admin team with the page, as we now only need one person to read and approve posts which tends to be a more individual job. Perhaps when passing over the duties to a new team, we could encourage them to vote or discuss submissions more. I also have an interest in developing an AI to filter submissions in the future, but it would require a lot more nuance in how it is used, to ensure that it is not unfairly approving or rejecting posts from user biases. It would be more for a fun project than to be actually used in action. Another idea I had would be looking at previous posts that have been rejected based on content - usually for discrimination or being against Facebook's guidelines, which may help to provide a warning flag to the team. 
+The final result is that all of the components are combined to schedule posts for the page, at variable intervals dependent on how many submissions we received recently. It has been really helpful in reducing the amount of work that the team has, and allowing us to redirect our time into engaging with our community, such as creating a club. I do however feel that it has lowered the engagement of the admin team with the page, as we now only need one person to read and approve posts which tends to be a more individual job. Perhaps when passing over the duties to a new team, we could encourage them to vote or discuss submissions more. 
+
+I also have an interest in integrating AI/Machine Learning to filter submissions in the future, but it would require a lot more nuance in how it is used, to ensure that it is not unfairly approving or rejecting posts from user biases. It would also be more for a personal project than intended to use in action, particularly as students have better knowledge of university culture, memes and context. 
+
+Another idea I had would be looking at previous posts that have been rejected based on content - usually for discrimination or being against Facebook's guidelines. This could be used in the future to flag or alert submissions that may be offensive, and indicate to the administrators that extra care should be taken when reading the post. 
 
 The page in action:<br><br>
 <div class="col-10 mx-auto">

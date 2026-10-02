@@ -61,7 +61,7 @@ My only complaint about Bootstrap that it can be a bit plain for UI/UX designs. 
 - [ ] Update design for marketing and art sections to use bootstrap 
 - [x] Add new projects 
 - [ ] Add projects to CV section 
-- [ ] Clean up code (remove unused images and css/js files)
+- [x] Clean up code (remove unused images and css/js files)
 - [ ] Update carousel used in blog posts to use bootstrap 
 - [ ] Better CV design 
-- [ ] Improve mobile UI/UX
+- [x] Improve mobile UI/UX

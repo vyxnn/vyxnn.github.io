@@ -51,7 +51,7 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
-    height: auto; 
+    height: 100%; 
     width: 100%;
     opacity: 0;
     background: #dcdbfe;
